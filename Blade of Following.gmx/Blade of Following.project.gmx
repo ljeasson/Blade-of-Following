@@ -24,7 +24,9 @@
     <sprite>sprites\spr_Shuriken_Barrier</sprite>
     <sprite>sprites\spr_Electirc_Barrier</sprite>
     <sprite>sprites\spr_Guard_R</sprite>
+    <sprite>sprites\spr_Guard_Armored_R</sprite>
     <sprite>sprites\spr_Guard_L</sprite>
+    <sprite>sprites\spr_Guard_Armored_L</sprite>
     <sprite>sprites\spr_Poison</sprite>
     <sprite>sprites\spr_Water</sprite>
     <sprite>sprites\spr_Pot</sprite>
@@ -76,7 +78,9 @@
     <object>objects\obj_Shuriken_Barrier</object>
     <object>objects\obj_Electric_Barrier</object>
     <object>objects\obj_Guard_Standstill</object>
+    <object>objects\obj_Guard_Armored_Standstill</object>
     <object>objects\obj_Guard_Patrol</object>
+    <object>objects\obj_Guard_Armored_Patrol</object>
     <object>objects\obj_Poison</object>
     <object>objects\obj_Pot</object>
     <object>objects\obj_Water</object>

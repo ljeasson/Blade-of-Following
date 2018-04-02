@@ -278,7 +278,6 @@
     <instance objName="obj_Marker" x="32" y="224" name="inst_02C82A80" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Marker" x="64" y="544" name="inst_BBF530CC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Marker" x="352" y="544" name="inst_C4163AD8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Guard_Patrol" x="160" y="544" name="inst_3A9AEC12" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Upgrade_Menu" x="512" y="32" name="inst_648F7937" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Wall_Half" x="112" y="304" name="inst_04145B41" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Wall_Half" x="144" y="304" name="inst_3D4F56E2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -373,23 +372,7 @@
     <instance objName="obj_wood" x="0" y="192" name="inst_013FD4B3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wood" x="0" y="224" name="inst_336F91E2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wood" x="0" y="256" name="inst_3206B675" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_wood_support" x="416" y="576" name="inst_B4F25DAA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_wood_support" x="416" y="608" name="inst_BA1AA494" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_wood_support" x="416" y="480" name="inst_99053AB0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_wood_support" x="416" y="544" name="inst_AB602D1E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_wood_support" x="416" y="512" name="inst_094EE014" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_wood_support" x="416" y="448" name="inst_19AE0DCE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_wood_support" x="416" y="416" name="inst_C4D48512" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_wood_support" x="416" y="384" name="inst_7EFA4E6F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_wood_support" x="816" y="448" name="inst_671C2BBD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_wood_support" x="816" y="416" name="inst_5B9994FF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_wood_support" x="816" y="384" name="inst_00E82584" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_wood_support" x="816" y="352" name="inst_34858F61" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_wood_support" x="816" y="320" name="inst_5927C5B9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_wood_support" x="816" y="288" name="inst_989F8427" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_wood_support" x="816" y="256" name="inst_CBEEB639" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_wood_support" x="816" y="224" name="inst_388AD318" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_wood_support" x="816" y="192" name="inst_8924401A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Guard_Armored_Patrol" x="160" y="544" name="inst_E4065AF5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
