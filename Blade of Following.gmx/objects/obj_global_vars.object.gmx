@@ -31,13 +31,16 @@
 global.shuriken_count = 3;
 global.shuriken_redirects = 3;
 
+//Shuriken Collects
+global.shuriken_1_collected = false;
+
 //Upgrade Points
 global.upgrade_points = 0;
 global.max_upgrade_points = 10;
 
 
-//Go to next room
-room_goto_next();
+//Go to menu
+room_goto(room_menu);
 </string>
           </argument>
         </arguments>

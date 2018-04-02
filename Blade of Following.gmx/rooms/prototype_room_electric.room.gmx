@@ -219,7 +219,7 @@
     <instance objName="obj_Shuriken_Barrier" x="608" y="448" name="inst_70CA4B3D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Door_Closed" x="984" y="704" name="inst_8ED8BD84" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Goal_R" x="960" y="608" name="inst_95922F51" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Upgrade_Orb" x="544" y="224" name="inst_D667895B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Upgrade_Orb_1" x="544" y="224" name="inst_D667895B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Upgrade" x="576" y="208" name="inst_7204D9F7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Platform" x="256" y="416" name="inst_9C48AD93" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Platform" x="960" y="416" name="inst_B3A7D251" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>

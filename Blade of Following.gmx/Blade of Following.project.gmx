@@ -86,7 +86,7 @@
     <object>objects\obj_global_vars</object>
     <object>objects\obj_count_upgrade_button</object>
     <object>objects\obj_redirects_upgrade_button</object>
-    <object>objects\obj_Upgrade_Orb</object>
+    <object>objects\obj_Upgrade_Orb_1</object>
     <object>objects\obj_Play_Button</object>
     <object>objects\obj_Quit_Button</object>
     <object>objects\obj_Title</object>
@@ -99,10 +99,13 @@
   </objects>
   <rooms name="rooms">
     <room>rooms\room_global_vars</room>
+    <rooms name="test rooms">
+      <room>rooms\prototype_room_barrier</room>
+      <room>rooms\prototype_room_electric</room>
+      <room>rooms\prototype_room_guards</room>
+    </rooms>
     <room>rooms\room_menu</room>
-    <room>rooms\prototype_room_barrier</room>
-    <room>rooms\prototype_room_electric</room>
-    <room>rooms\prototype_room_guards</room>
+    <room>rooms\room_tutorial</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
