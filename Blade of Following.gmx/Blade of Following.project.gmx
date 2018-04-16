@@ -4,7 +4,25 @@
     <Config>Configs\Default</Config>
   </Configs>
   <NewExtensions/>
-  <sounds name="sound"/>
+  <sounds name="sound">
+    <sounds name="Background">
+      <sound>sound\snd_Background_1</sound>
+      <sound>sound\snd_Background_2</sound>
+    </sounds>
+    <sounds name="SFX">
+      <sound>sound\snd_Throw</sound>
+      <sound>sound\snd_Grunt</sound>
+      <sound>sound\snd_Strike_Guard</sound>
+      <sound>sound\snd_Fly</sound>
+      <sound>sound\snd_Whoosh</sound>
+      <sound>sound\snd_Stone_Impact</sound>
+      <sound>sound\snd_Wood_Impact</sound>
+      <sound>sound\snd_Beep</sound>
+      <sound>sound\snd_Orb</sound>
+      <sound>sound\snd_Victory</sound>
+      <sound>sound\snd_Large_Crash_w_Cat</sound>
+    </sounds>
+  </sounds>
   <sprites name="sprites">
     <sprite>sprites\spr_Ninja</sprite>
     <sprite>sprites\spr_Shuriken</sprite>
@@ -19,6 +37,8 @@
     <sprite>sprites\spr_Goal_L_Activated</sprite>
     <sprite>sprites\spr_Goal_R</sprite>
     <sprite>sprites\spr_Goal_R_Activated</sprite>
+    <sprite>sprites\spr_Goal_U</sprite>
+    <sprite>sprites\spr_Goal_U_Activated</sprite>
     <sprite>sprites\spr_Door_Closed</sprite>
     <sprite>sprites\spr_Door_Open</sprite>
     <sprite>sprites\spr_Shuriken_Barrier</sprite>
@@ -34,6 +54,7 @@
     <sprite>sprites\spr_Marker</sprite>
     <sprite>sprites\spr_UI_Shuriken_number</sprite>
     <sprite>sprites\spr_UI_Shuriken_redirects</sprite>
+    <sprite>sprites\spr_UI_Trap_Shuriken</sprite>
     <sprite>sprites\spr_button</sprite>
     <sprite>sprites\spr_Upgrade_Orb</sprite>
     <sprite>sprites\spr_Play_Button</sprite>
@@ -43,11 +64,14 @@
     <sprite>sprites\spr_Redirect_Shuriken</sprite>
     <sprite>sprites\spr_Shuriken_Count</sprite>
     <sprite>sprites\spr_Exit</sprite>
+    <sprite>sprites\spr_Goal</sprite>
     <sprite>sprites\spr_Upgrade</sprite>
     <sprite>sprites\spr_Upgrade_Menu</sprite>
     <sprite>sprites\spr_roof</sprite>
-    <sprite>sprites\spr_bamboo</sprite>
+    <sprite>sprites\spr_bamboo_vertical</sprite>
+    <sprite>sprites\spr_bamboo_horizontal</sprite>
     <sprite>sprites\spr_wood_support</sprite>
+    <sprite>sprites\spr_Explosion</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\tech_tiles</background>
@@ -67,14 +91,17 @@
     <object>objects\obj_Wall_Half</object>
     <object>objects\obj_Platform</object>
     <object>objects\obj_roof</object>
-    <object>objects\obj_wood</object>
+    <object>objects\obj_bamboo_vertical</object>
+    <object>objects\obj_bamboo_horizontal</object>
     <object>objects\obj_wood_support</object>
     <object>objects\obj_Ninja</object>
     <object>objects\obj_Shuriken</object>
+    <object>objects\obj_Trap_Shuriken</object>
     <object>objects\obj_Switch</object>
     <object>objects\obj_Electric_Box</object>
     <object>objects\obj_Goal_L</object>
     <object>objects\obj_Goal_R</object>
+    <object>objects\obj_Goal_U</object>
     <object>objects\obj_Shuriken_Barrier</object>
     <object>objects\obj_Electric_Barrier</object>
     <object>objects\obj_Guard_Standstill</object>
@@ -98,8 +125,12 @@
     <object>objects\obj_Redirect_Shuriken</object>
     <object>objects\obj_Shuriken_Count</object>
     <object>objects\obj_Exit</object>
+    <object>objects\obj_Goal</object>
     <object>objects\obj_Upgrade</object>
     <object>objects\obj_Upgrade_Menu</object>
+    <object>objects\obj_Explosion</object>
+    <object>objects\obj_Sound_Menu</object>
+    <object>objects\obj_Sound_Gameplay</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room_global_vars</room>
@@ -110,6 +141,8 @@
     </rooms>
     <room>rooms\room_menu</room>
     <room>rooms\room_tutorial</room>
+    <room>rooms\room_Level_1</room>
+    <room>rooms\room_Level_2</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
