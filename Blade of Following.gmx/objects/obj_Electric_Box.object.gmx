@@ -81,7 +81,7 @@
         <arguments>
           <argument>
             <kind>5</kind>
-            <sprite>spr_Electric_Box_Broken</sprite>
+            <sprite>spr_Electric_Box_Activated</sprite>
           </argument>
           <argument>
             <kind>0</kind>

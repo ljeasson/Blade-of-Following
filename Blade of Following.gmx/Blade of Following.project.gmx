@@ -26,52 +26,69 @@
   <sprites name="sprites">
     <sprite>sprites\spr_Ninja</sprite>
     <sprite>sprites\spr_Shuriken</sprite>
-    <sprite>sprites\spr_Wall</sprite>
-    <sprite>sprites\spr_Wall_Half</sprite>
-    <sprite>sprites\spr_Platform</sprite>
-    <sprite>sprites\spr_Electric_Box_Broken</sprite>
-    <sprite>sprites\spr_Electric_Box</sprite>
-    <sprite>sprites\spr_Switch_Activated</sprite>
-    <sprite>sprites\spr_Switch</sprite>
-    <sprite>sprites\spr_Goal_L</sprite>
-    <sprite>sprites\spr_Goal_L_Activated</sprite>
-    <sprite>sprites\spr_Goal_R</sprite>
-    <sprite>sprites\spr_Goal_R_Activated</sprite>
-    <sprite>sprites\spr_Goal_U</sprite>
-    <sprite>sprites\spr_Goal_U_Activated</sprite>
-    <sprite>sprites\spr_Door_Closed</sprite>
-    <sprite>sprites\spr_Door_Open</sprite>
-    <sprite>sprites\spr_Shuriken_Barrier</sprite>
-    <sprite>sprites\spr_Electirc_Barrier</sprite>
-    <sprite>sprites\spr_Guard_R</sprite>
-    <sprite>sprites\spr_Guard_Armored_R</sprite>
-    <sprite>sprites\spr_Guard_L</sprite>
-    <sprite>sprites\spr_Guard_Armored_L</sprite>
-    <sprite>sprites\spr_Poison</sprite>
-    <sprite>sprites\spr_Water</sprite>
-    <sprite>sprites\spr_Pot</sprite>
-    <sprite>sprites\spr_Pot_Broken</sprite>
-    <sprite>sprites\spr_Marker</sprite>
-    <sprite>sprites\spr_UI_Shuriken_number</sprite>
-    <sprite>sprites\spr_UI_Shuriken_redirects</sprite>
-    <sprite>sprites\spr_UI_Trap_Shuriken</sprite>
-    <sprite>sprites\spr_button</sprite>
-    <sprite>sprites\spr_Upgrade_Orb</sprite>
-    <sprite>sprites\spr_Play_Button</sprite>
-    <sprite>sprites\spr_Quit_Button</sprite>
-    <sprite>sprites\spr_Title</sprite>
-    <sprite>sprites\spr_Throw_Shuriken</sprite>
-    <sprite>sprites\spr_Redirect_Shuriken</sprite>
-    <sprite>sprites\spr_Shuriken_Count</sprite>
-    <sprite>sprites\spr_Exit</sprite>
-    <sprite>sprites\spr_Goal</sprite>
-    <sprite>sprites\spr_Upgrade</sprite>
-    <sprite>sprites\spr_Upgrade_Menu</sprite>
-    <sprite>sprites\spr_roof</sprite>
-    <sprite>sprites\spr_bamboo_vertical</sprite>
-    <sprite>sprites\spr_bamboo_horizontal</sprite>
-    <sprite>sprites\spr_wood_support</sprite>
-    <sprite>sprites\spr_Explosion</sprite>
+    <sprites name="Walls, Platforms, and Boundaries">
+      <sprite>sprites\spr_Wall</sprite>
+      <sprite>sprites\spr_Wall_Half</sprite>
+      <sprite>sprites\spr_roof</sprite>
+      <sprite>sprites\spr_Platform</sprite>
+      <sprite>sprites\spr_bamboo_vertical</sprite>
+      <sprite>sprites\spr_bamboo_horizontal</sprite>
+      <sprite>sprites\spr_wood_support</sprite>
+      <sprite>sprites\spr_Marker</sprite>
+    </sprites>
+    <sprites name="Guards">
+      <sprite>sprites\spr_Guard_R</sprite>
+      <sprite>sprites\spr_Guard_L</sprite>
+      <sprite>sprites\spr_Guard_Armored_R</sprite>
+      <sprite>sprites\spr_Guard_Armored_L</sprite>
+    </sprites>
+    <sprites name="Switches and Buttons">
+      <sprite>sprites\spr_Electric_Box</sprite>
+      <sprite>sprites\spr_Electric_Box_Activated</sprite>
+      <sprite>sprites\spr_Switch_Activated</sprite>
+      <sprite>sprites\spr_Switch</sprite>
+      <sprite>sprites\spr_Goal_L</sprite>
+      <sprite>sprites\spr_Goal_L_Activated</sprite>
+      <sprite>sprites\spr_Goal_R</sprite>
+      <sprite>sprites\spr_Goal_R_Activated</sprite>
+      <sprite>sprites\spr_Goal_U</sprite>
+      <sprite>sprites\spr_Goal_U_Activated</sprite>
+    </sprites>
+    <sprites name="Environment">
+      <sprite>sprites\spr_Door_Closed</sprite>
+      <sprite>sprites\spr_Door_Open</sprite>
+      <sprite>sprites\spr_Shuriken_Barrier</sprite>
+      <sprite>sprites\spr_Electirc_Barrier</sprite>
+      <sprite>sprites\spr_Poison</sprite>
+      <sprite>sprites\spr_Water</sprite>
+      <sprite>sprites\spr_Pot</sprite>
+      <sprite>sprites\spr_Pot_Broken</sprite>
+      <sprite>sprites\spr_Explosion</sprite>
+      <sprite>sprites\spr_Sound_Wave</sprite>
+    </sprites>
+    <sprites name="UI">
+      <sprites name="Upgrades">
+        <sprite>sprites\spr_UI_Shuriken_number</sprite>
+        <sprite>sprites\spr_UI_Shuriken_redirects</sprite>
+        <sprite>sprites\spr_UI_Trap_Shuriken</sprite>
+        <sprite>sprites\spr_Upgrade_Orb</sprite>
+      </sprites>
+      <sprites name="Buttons">
+        <sprite>sprites\spr_button</sprite>
+        <sprite>sprites\spr_Play_Button</sprite>
+        <sprite>sprites\spr_Quit_Button</sprite>
+      </sprites>
+      <sprites name="Text">
+        <sprite>sprites\spr_Title</sprite>
+        <sprite>sprites\spr_Throw_Shuriken</sprite>
+        <sprite>sprites\spr_Redirect_Shuriken</sprite>
+        <sprite>sprites\spr_Shuriken_Count</sprite>
+        <sprite>sprites\spr_Exit</sprite>
+        <sprite>sprites\spr_Goal</sprite>
+        <sprite>sprites\spr_Upgrade</sprite>
+        <sprite>sprites\spr_Upgrade_Menu</sprite>
+      </sprites>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\tech_tiles</background>
@@ -79,7 +96,6 @@
     <background>background\background_2</background>
     <background>background\background_3</background>
     <background>background\background_4</background>
-    <background>background\background5</background>
   </backgrounds>
   <paths name="paths"/>
   <fonts name="fonts">
@@ -87,50 +103,72 @@
     <font>fonts\UI_font_Small</font>
   </fonts>
   <objects name="objects">
-    <object>objects\obj_Wall</object>
-    <object>objects\obj_Wall_Half</object>
-    <object>objects\obj_Platform</object>
-    <object>objects\obj_roof</object>
-    <object>objects\obj_bamboo_vertical</object>
-    <object>objects\obj_bamboo_horizontal</object>
-    <object>objects\obj_wood_support</object>
+    <objects name="Controllers">
+      <object>objects\obj_global_vars</object>
+      <object>objects\obj_Sound_Menu</object>
+      <object>objects\obj_Sound_Gameplay</object>
+    </objects>
     <object>objects\obj_Ninja</object>
     <object>objects\obj_Shuriken</object>
     <object>objects\obj_Trap_Shuriken</object>
-    <object>objects\obj_Switch</object>
-    <object>objects\obj_Electric_Box</object>
-    <object>objects\obj_Goal_L</object>
-    <object>objects\obj_Goal_R</object>
-    <object>objects\obj_Goal_U</object>
-    <object>objects\obj_Shuriken_Barrier</object>
-    <object>objects\obj_Electric_Barrier</object>
-    <object>objects\obj_Guard_Standstill</object>
-    <object>objects\obj_Guard_Armored_Standstill</object>
-    <object>objects\obj_Guard_Patrol</object>
-    <object>objects\obj_Guard_Armored_Patrol</object>
-    <object>objects\obj_Poison</object>
-    <object>objects\obj_Pot</object>
-    <object>objects\obj_Water</object>
-    <object>objects\obj_Door_Closed</object>
-    <object>objects\obj_Door_Open</object>
-    <object>objects\obj_Marker</object>
-    <object>objects\obj_global_vars</object>
-    <object>objects\obj_count_upgrade_button</object>
-    <object>objects\obj_redirects_upgrade_button</object>
+    <object>objects\obj_Distraction_Shuriken</object>
     <object>objects\obj_Upgrade_Orb_1</object>
-    <object>objects\obj_Play_Button</object>
-    <object>objects\obj_Quit_Button</object>
-    <object>objects\obj_Title</object>
-    <object>objects\obj_Throw_Shuriken</object>
-    <object>objects\obj_Redirect_Shuriken</object>
-    <object>objects\obj_Shuriken_Count</object>
-    <object>objects\obj_Exit</object>
-    <object>objects\obj_Goal</object>
-    <object>objects\obj_Upgrade</object>
-    <object>objects\obj_Upgrade_Menu</object>
-    <object>objects\obj_Explosion</object>
-    <object>objects\obj_Sound_Menu</object>
-    <object>objects\obj_Sound_Gameplay</object>
+    <objects name="Walls, Boundaries, and Platforms">
+      <object>objects\obj_Wall</object>
+      <object>objects\obj_Wall_Half</object>
+      <object>objects\obj_Platform</object>
+      <object>objects\obj_roof</object>
+      <object>objects\obj_bamboo_vertical</object>
+      <object>objects\obj_bamboo_horizontal</object>
+      <object>objects\obj_wood_support</object>
+    </objects>
+    <objects name="Switches and Buttons">
+      <object>objects\obj_Switch</object>
+      <object>objects\obj_Electric_Box</object>
+      <object>objects\obj_Goal_L</object>
+      <object>objects\obj_Goal_R</object>
+      <object>objects\obj_Goal_U</object>
+    </objects>
+    <objects name="Environment">
+      <object>objects\obj_Shuriken_Barrier</object>
+      <object>objects\obj_Electric_Barrier</object>
+      <object>objects\obj_Poison</object>
+      <object>objects\obj_Water</object>
+      <object>objects\obj_Door_Closed</object>
+      <object>objects\obj_Door_Open</object>
+      <object>objects\obj_Pot</object>
+      <object>objects\obj_Marker</object>
+      <object>objects\obj_Explosion</object>
+      <object>objects\obj_Sound_Wave</object>
+    </objects>
+    <objects name="Guards">
+      <objects name="Standstill">
+        <object>objects\obj_Guard_Standstill</object>
+        <object>objects\obj_Guard_Armored_Standstill</object>
+      </objects>
+      <objects name="Patrol">
+        <object>objects\obj_Guard_Patrol</object>
+        <object>objects\obj_Guard_Armored_Patrol</object>
+      </objects>
+    </objects>
+    <objects name="UI">
+      <objects name="Buttons">
+        <object>objects\obj_count_upgrade_button</object>
+        <object>objects\obj_redirects_upgrade_button</object>
+        <object>objects\obj_Play_Button</object>
+        <object>objects\obj_Quit_Button</object>
+      </objects>
+      <objects name="Text">
+        <object>objects\obj_Title</object>
+        <object>objects\obj_Throw_Shuriken</object>
+        <object>objects\obj_Redirect_Shuriken</object>
+        <object>objects\obj_Shuriken_Count</object>
+        <object>objects\obj_Exit</object>
+        <object>objects\obj_Goal</object>
+        <object>objects\obj_Upgrade</object>
+        <object>objects\obj_Upgrade_Menu</object>
+      </objects>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\room_global_vars</room>
@@ -143,6 +181,8 @@
     <room>rooms\room_tutorial</room>
     <room>rooms\room_Level_1</room>
     <room>rooms\room_Level_2</room>
+    <room>rooms\room_Level_3</room>
+    <room>rooms\room_Level_4</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
