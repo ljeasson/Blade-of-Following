@@ -139,19 +139,19 @@
     <instance objName="obj_Wall" x="704" y="448" name="inst_8FB23E24" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Wall" x="480" y="256" name="inst_CE6D9339" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Wall" x="480" y="224" name="inst_473C6F6F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Electric_Barrier" x="480" y="128" name="inst_8CAE6F68" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Electric_Barrier" x="480" y="96" name="inst_5C03AAB1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Electric_Barrier" x="480" y="64" name="inst_927392DF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Electric_Barrier" x="480" y="32" name="inst_157FB422" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Electricity" x="480" y="128" name="inst_8CAE6F68" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Electricity" x="480" y="96" name="inst_5C03AAB1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Electricity" x="480" y="64" name="inst_927392DF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Electricity" x="480" y="32" name="inst_157FB422" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Electric_Box" x="32" y="96" name="inst_672CC59D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Shuriken_Barrier" x="608" y="480" name="inst_CE870E0B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Shuriken_Barrier" x="608" y="512" name="inst_37BF051C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Shuriken_Barrier" x="608" y="544" name="inst_2D1DD1F3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Shuriken_Barrier" x="608" y="576" name="inst_F07D1CCE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Shuriken_Barrier" x="608" y="608" name="inst_F2B98859" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Shuriken_Barrier" x="608" y="640" name="inst_8DB2E1EF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Shuriken_Barrier" x="608" y="672" name="inst_45AF4CD1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Shuriken_Barrier" x="608" y="704" name="inst_B14C49FF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Electric_Barrier" x="608" y="480" name="inst_CE870E0B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Electric_Barrier" x="608" y="512" name="inst_37BF051C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Electric_Barrier" x="608" y="544" name="inst_2D1DD1F3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Electric_Barrier" x="608" y="576" name="inst_F07D1CCE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Electric_Barrier" x="608" y="608" name="inst_F2B98859" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Electric_Barrier" x="608" y="640" name="inst_8DB2E1EF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Electric_Barrier" x="608" y="672" name="inst_45AF4CD1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Electric_Barrier" x="608" y="704" name="inst_B14C49FF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Wall" x="704" y="480" name="inst_62CE25F3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Wall" x="704" y="512" name="inst_AEE4550D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Wall" x="736" y="512" name="inst_FCDE28AB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -212,11 +212,11 @@
     <instance objName="obj_Wall" x="128" y="224" name="inst_996440F7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Wall" x="96" y="224" name="inst_599C19F0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Wall" x="64" y="224" name="inst_0B3CC8F4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Electric_Barrier" x="480" y="160" name="inst_2B9F6CA1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Electric_Barrier" x="256" y="480" name="inst_A0154020" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Electric_Barrier" x="256" y="512" name="inst_154CCBF8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Electric_Barrier" x="256" y="448" name="inst_77F7FFD5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Shuriken_Barrier" x="608" y="448" name="inst_70CA4B3D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Electricity" x="480" y="160" name="inst_2B9F6CA1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Electricity" x="256" y="480" name="inst_A0154020" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Electricity" x="256" y="512" name="inst_154CCBF8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Electricity" x="256" y="448" name="inst_77F7FFD5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Electric_Barrier" x="608" y="448" name="inst_70CA4B3D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Door_Closed" x="984" y="704" name="inst_8ED8BD84" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Goal_R" x="960" y="608" name="inst_95922F51" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Platform" x="256" y="416" name="inst_9C48AD93" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>

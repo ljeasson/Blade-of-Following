@@ -76,8 +76,6 @@
     <instance objName="obj_Wall" x="0" y="736" name="inst_0799E381" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Wall" x="32" y="736" name="inst_E444B6D3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Wall" x="64" y="736" name="inst_0ECC5457" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Wall" x="96" y="736" name="inst_33B69723" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Wall" x="288" y="736" name="inst_28EABFCE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Wall" x="320" y="736" name="inst_C42B3C03" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Wall" x="352" y="736" name="inst_A6A67A11" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Wall" x="384" y="736" name="inst_0E394F69" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -248,6 +246,8 @@
     <instance objName="obj_bamboo_horizontal" x="192" y="736" name="inst_B704A0D6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_bamboo_horizontal" x="224" y="736" name="inst_75689DCF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_bamboo_horizontal" x="256" y="736" name="inst_5A333082" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Wall" x="96" y="736" name="inst_7717B811" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Wall" x="288" y="736" name="inst_688CE0FC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

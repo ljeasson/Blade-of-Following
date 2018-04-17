@@ -253,14 +253,14 @@
     <instance objName="obj_Wall" x="96" y="320" name="inst_E35FB1D5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Wall" x="64" y="320" name="inst_7283F6F0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Wall" x="32" y="320" name="inst_B994F511" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Electric_Barrier" x="416" y="256" name="inst_667844CD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Electric_Barrier" x="416" y="224" name="inst_4014B6F0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Electric_Barrier" x="416" y="192" name="inst_B5651CED" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Electric_Barrier" x="416" y="160" name="inst_F4B9CBA8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Electric_Barrier" x="416" y="128" name="inst_EC891978" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Electric_Barrier" x="416" y="96" name="inst_F9094D45" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Electric_Barrier" x="416" y="64" name="inst_60214FE0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Electric_Barrier" x="416" y="32" name="inst_67B7ED60" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Electricity" x="416" y="256" name="inst_667844CD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Electricity" x="416" y="224" name="inst_4014B6F0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Electricity" x="416" y="192" name="inst_B5651CED" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Electricity" x="416" y="160" name="inst_F4B9CBA8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Electricity" x="416" y="128" name="inst_EC891978" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Electricity" x="416" y="96" name="inst_F9094D45" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Electricity" x="416" y="64" name="inst_60214FE0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Electricity" x="416" y="32" name="inst_67B7ED60" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Wall_Half" x="96" y="304" name="inst_E35E76D3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Wall_Half" x="128" y="304" name="inst_CE045416" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Wall_Half" x="160" y="304" name="inst_70AA9A49" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -372,7 +372,7 @@
     <instance objName="obj_bamboo_vertical" x="0" y="224" name="inst_336F91E2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_bamboo_vertical" x="0" y="256" name="inst_3206B675" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Guard_Armored_Patrol" x="160" y="544" name="inst_E4065AF5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Guard_Armored_Standstill" x="896" y="416" name="inst_B7123694" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Guard_Armored_Standstill_L" x="896" y="416" name="inst_B7123694" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

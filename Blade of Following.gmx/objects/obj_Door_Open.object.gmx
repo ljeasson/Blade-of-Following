@@ -45,7 +45,7 @@
         <arguments>
           <argument>
             <kind>10</kind>
-            <object>obj_Guard_Standstill</object>
+            <object>obj_Guard_Standstill_L</object>
           </argument>
           <argument>
             <kind>0</kind>

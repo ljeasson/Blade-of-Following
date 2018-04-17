@@ -21,6 +21,11 @@
       <sound>sound\snd_Orb</sound>
       <sound>sound\snd_Victory</sound>
       <sound>sound\snd_Large_Crash_w_Cat</sound>
+      <sound>sound\snd_Explosion</sound>
+      <sound>sound\snd_Switch</sound>
+      <sound>sound\snd_Electric_Buzz</sound>
+      <sound>sound\snd_Crash</sound>
+      <sound>sound\snd_Metal_Hit</sound>
     </sounds>
   </sounds>
   <sprites name="sprites">
@@ -57,8 +62,9 @@
     <sprites name="Environment">
       <sprite>sprites\spr_Door_Closed</sprite>
       <sprite>sprites\spr_Door_Open</sprite>
-      <sprite>sprites\spr_Shuriken_Barrier</sprite>
-      <sprite>sprites\spr_Electirc_Barrier</sprite>
+      <sprite>sprites\spr_Electric_Barrier</sprite>
+      <sprite>sprites\spr_Guard_Barrier</sprite>
+      <sprite>sprites\spr_Electircity</sprite>
       <sprite>sprites\spr_Poison</sprite>
       <sprite>sprites\spr_Water</sprite>
       <sprite>sprites\spr_Pot</sprite>
@@ -87,6 +93,7 @@
         <sprite>sprites\spr_Goal</sprite>
         <sprite>sprites\spr_Upgrade</sprite>
         <sprite>sprites\spr_Upgrade_Menu</sprite>
+        <sprite>sprites\spr_Question_Mark</sprite>
       </sprites>
     </sprites>
   </sprites>
@@ -107,6 +114,9 @@
       <object>objects\obj_global_vars</object>
       <object>objects\obj_Sound_Menu</object>
       <object>objects\obj_Sound_Gameplay</object>
+      <object>objects\obj_Room_Controller</object>
+      <object>objects\obj_Electric_Sound</object>
+      <object>objects\obj_Crash_Sound</object>
     </objects>
     <object>objects\obj_Ninja</object>
     <object>objects\obj_Shuriken</object>
@@ -130,8 +140,9 @@
       <object>objects\obj_Goal_U</object>
     </objects>
     <objects name="Environment">
-      <object>objects\obj_Shuriken_Barrier</object>
       <object>objects\obj_Electric_Barrier</object>
+      <object>objects\obj_Guard_Barrier</object>
+      <object>objects\obj_Electricity</object>
       <object>objects\obj_Poison</object>
       <object>objects\obj_Water</object>
       <object>objects\obj_Door_Closed</object>
@@ -143,8 +154,10 @@
     </objects>
     <objects name="Guards">
       <objects name="Standstill">
-        <object>objects\obj_Guard_Standstill</object>
-        <object>objects\obj_Guard_Armored_Standstill</object>
+        <object>objects\obj_Guard_Standstill_L</object>
+        <object>objects\obj_Guard_Standstill_R</object>
+        <object>objects\obj_Guard_Armored_Standstill_L</object>
+        <object>objects\obj_Guard_Armored_Standstill_R</object>
       </objects>
       <objects name="Patrol">
         <object>objects\obj_Guard_Patrol</object>
@@ -167,6 +180,7 @@
         <object>objects\obj_Goal</object>
         <object>objects\obj_Upgrade</object>
         <object>objects\obj_Upgrade_Menu</object>
+        <object>objects\obj_Question_Mark</object>
       </objects>
     </objects>
   </objects>
@@ -183,6 +197,8 @@
     <room>rooms\room_Level_2</room>
     <room>rooms\room_Level_3</room>
     <room>rooms\room_Level_4</room>
+    <room>rooms\room_Level_5</room>
+    <room>rooms\room_Level_6</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
