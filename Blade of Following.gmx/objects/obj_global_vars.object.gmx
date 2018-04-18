@@ -41,6 +41,7 @@ global.max_upgrade_points = 10;
 
 //Go to menu
 room_goto(room_menu);
+//room_goto_next();
 </string>
           </argument>
         </arguments>

@@ -81,6 +81,7 @@
       </sprites>
       <sprites name="Buttons">
         <sprite>sprites\spr_button</sprite>
+        <sprite>sprites\spr_Menu_Button</sprite>
         <sprite>sprites\spr_Play_Button</sprite>
         <sprite>sprites\spr_Quit_Button</sprite>
       </sprites>
@@ -186,6 +187,7 @@
   </objects>
   <rooms name="rooms">
     <room>rooms\room_global_vars</room>
+    <room>rooms\room_header</room>
     <rooms name="test rooms">
       <room>rooms\prototype_room_barrier</room>
       <room>rooms\prototype_room_electric</room>
