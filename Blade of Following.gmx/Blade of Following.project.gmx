@@ -149,6 +149,7 @@
       <object>objects\obj_Door_Closed</object>
       <object>objects\obj_Door_Open</object>
       <object>objects\obj_Pot</object>
+      <object>objects\obj_Broken_Pot</object>
       <object>objects\obj_Marker</object>
       <object>objects\obj_Explosion</object>
       <object>objects\obj_Sound_Wave</object>

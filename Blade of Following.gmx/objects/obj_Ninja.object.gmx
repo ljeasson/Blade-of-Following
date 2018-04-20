@@ -393,25 +393,36 @@
 
 if (menu_show == true)
 {
+    // Make brown colors
+    var lt_brown = make_color_rgb(153, 76, 0);
+    var dk_brown = make_color_rgb(102, 51, 0);
+
     //Draw Menu Box
-    draw_rectangle_colour(64,64,room_width-64,room_height-64, c_ltgray,c_gray,c_gray,c_black, false);
+    //draw_rectangle_colour(64,64,room_width-64,room_height-64, c_ltgray,c_gray,c_gray,c_black, false);
+    draw_rectangle_colour(64,64,room_width-64,room_height/2-64, lt_brown,dk_brown,dk_brown,c_black, false);
     
     //Draw Icons
-    draw_sprite(spr_UI_Shuriken_number, 1, room_width/2-192, room_height/2-192);
-    draw_sprite(spr_UI_Shuriken_redirects, 1, room_width/2+92, room_height/2-192);
+    //draw_sprite(spr_UI_Shuriken_number, 1, room_width/2-192, room_height/2-192);
+    //draw_sprite(spr_UI_Shuriken_redirects, 1, room_width/2+92, room_height/2-192);
+    draw_sprite(spr_UI_Shuriken_number, 1, room_width/2-192, room_height/2-200);
+    draw_sprite(spr_UI_Shuriken_redirects, 1, room_width/2+92, room_height/2-200);
     
     //Draw Buttons
     instance_create(336,256, obj_count_upgrade_button)  //Upgrade Button for Shuriken Count
     instance_create(600,256, obj_redirects_upgrade_button)  //Upgrade Button for Shuriken Redirects
+   
+    //Draw Upgrade Orb Display
+    draw_sprite(spr_Upgrade_Orb,1,84,90);      //Upgrade Orb Sprite
+    draw_text(145,60,global.upgrade_points);  //Upgrade Points
     
     //Draw Variables
-    draw_text(room_width/2-92, room_height/2-240, global.shuriken_count);  //Shuriken Count
-    draw_text(room_width/2+192, room_height/2-240, global.shuriken_redirects);  //Shuriken Re-directs
-   
-    //draw_set_colour(c_red); 
-    draw_text(104,60, global.upgrade_points);  //Upgrade Points
+    draw_set_font(UI_font_Small);
     
+    draw_text(room_width/2-165, room_height/2-310, "Shurikens");  //Shuriken Count Label
+    draw_text(room_width/2-100, room_height/2-240, global.shuriken_count);  //Shuriken Count
     
+    draw_text(room_width/2+125, room_height/2-310, "Redirects");  //Shuriken Redirect Count Label
+    draw_text(room_width/2+184, room_height/2-240, global.shuriken_redirects);  //Shuriken Re-directs   
 }
 </string>
           </argument>
