@@ -65,10 +65,13 @@
       <sprite>sprites\spr_Electric_Barrier</sprite>
       <sprite>sprites\spr_Guard_Barrier</sprite>
       <sprite>sprites\spr_Electircity</sprite>
+      <sprite>sprites\spr_Fire</sprite>
+      <sprite>sprites\spr_Brazier</sprite>
       <sprite>sprites\spr_Poison</sprite>
       <sprite>sprites\spr_Water</sprite>
       <sprite>sprites\spr_Pot</sprite>
       <sprite>sprites\spr_Pot_Broken</sprite>
+      <sprite>sprites\spr_Barrel</sprite>
       <sprite>sprites\spr_Explosion</sprite>
       <sprite>sprites\spr_Sound_Wave</sprite>
     </sprites>
@@ -143,6 +146,8 @@
     <objects name="Environment">
       <object>objects\obj_Electric_Barrier</object>
       <object>objects\obj_Guard_Barrier</object>
+      <object>objects\obj_Fire</object>
+      <object>objects\obj_Brazier</object>
       <object>objects\obj_Electricity</object>
       <object>objects\obj_Poison</object>
       <object>objects\obj_Water</object>
@@ -150,6 +155,7 @@
       <object>objects\obj_Door_Open</object>
       <object>objects\obj_Pot</object>
       <object>objects\obj_Broken_Pot</object>
+      <object>objects\obj_Barrell</object>
       <object>objects\obj_Marker</object>
       <object>objects\obj_Explosion</object>
       <object>objects\obj_Sound_Wave</object>
@@ -202,6 +208,7 @@
     <room>rooms\room_Level_4</room>
     <room>rooms\room_Level_5</room>
     <room>rooms\room_Level_6</room>
+    <room>rooms\room_Level_7</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
