@@ -3,7 +3,12 @@
   <Configs name="configs">
     <Config>Configs\Default</Config>
   </Configs>
-  <NewExtensions/>
+  <NewExtensions>
+    <extension index="0">extensions\Free Shaders</extension>
+    <extension index="1">extensions\Shadow</extension>
+    <extension index="2">extensions\Glow Shader</extension>
+    <extension index="3">extensions\Hue Shader</extension>
+  </NewExtensions>
   <sounds name="sound">
     <sounds name="Background">
       <sound>sound\snd_Background_1</sound>
@@ -30,6 +35,10 @@
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\spr_Ninja</sprite>
+    <sprite>sprites\spr_Ninja_Eyes_Closed</sprite>
+    <sprite>sprites\spr_Ninja_Happy</sprite>
+    <sprite>sprites\spr_Frustrated</sprite>
+    <sprite>sprites\spr_Ninja_Wide_Eyes</sprite>
     <sprite>sprites\spr_Shuriken</sprite>
     <sprites name="Walls, Platforms, and Boundaries">
       <sprite>sprites\spr_Wall</sprite>
@@ -43,9 +52,13 @@
     </sprites>
     <sprites name="Guards">
       <sprite>sprites\spr_Guard_R</sprite>
+      <sprite>sprites\spr_Guard_R_Eyes_Closed</sprite>
       <sprite>sprites\spr_Guard_L</sprite>
+      <sprite>sprites\spr_Guard_L_Eyes_Closed</sprite>
       <sprite>sprites\spr_Guard_Armored_R</sprite>
+      <sprite>sprites\spr_Guard_Armored_R_Eyes_Closed</sprite>
       <sprite>sprites\spr_Guard_Armored_L</sprite>
+      <sprite>sprites\spr_Guard_Armored_L_Eyes_Closed</sprite>
     </sprites>
     <sprites name="Switches and Buttons">
       <sprite>sprites\spr_Electric_Box</sprite>
@@ -84,8 +97,12 @@
       </sprites>
       <sprites name="Buttons">
         <sprite>sprites\spr_button</sprite>
+        <sprite>sprites\spr_Back_Button</sprite>
+        <sprite>sprites\spr_Foward_Button</sprite>
+        <sprite>sprites\spr_level_button</sprite>
         <sprite>sprites\spr_Menu_Button</sprite>
         <sprite>sprites\spr_Play_Button</sprite>
+        <sprite>sprites\spr_Level_Select</sprite>
         <sprite>sprites\spr_Quit_Button</sprite>
       </sprites>
       <sprites name="Text">
@@ -98,6 +115,7 @@
         <sprite>sprites\spr_Upgrade</sprite>
         <sprite>sprites\spr_Upgrade_Menu</sprite>
         <sprite>sprites\spr_Question_Mark</sprite>
+        <sprite>sprites\spr_Exclamiation_Mark</sprite>
       </sprites>
     </sprites>
   </sprites>
@@ -109,18 +127,51 @@
     <background>background\background_4</background>
   </backgrounds>
   <paths name="paths"/>
+  <scripts name="scripts"/>
+  <shaders name="shaders">
+    <shader type="GLSLES">shaders\shd_bright_contrast.shader</shader>
+    <shader type="GLSLES">shaders\shd_emboss.shader</shader>
+    <shaders name="Gaussian shaders">
+      <shader type="GLSLES">shaders\shd_gaussian_horizontal.shader</shader>
+      <shader type="GLSLES">shaders\shd_gaussian_vertical.shader</shader>
+    </shaders>
+    <shader type="GLSLES">shaders\shd_greyscale.shader</shader>
+    <shader type="GLSLES">shaders\shd_invert.shader</shader>
+    <shader type="GLSLES">shaders\shd_LED.shader</shader>
+    <shader type="GLSLES">shaders\shd_magnify.shader</shader>
+    <shader type="GLSLES">shaders\shd_mosaic.shader</shader>
+    <shader type="GLSLES">shaders\shd_posterization.shader</shader>
+    <shader type="GLSLES">shaders\shd_ripple.shader</shader>
+    <shader type="GLSLES">shaders\shd_scanlines.shader</shader>
+    <shader type="GLSLES">shaders\shd_sepia.shader</shader>
+    <shader type="GLSLES">shaders\shd_shockwave.shader</shader>
+    <shader type="GLSLES">shaders\shd_sketch.shader</shader>
+    <shader type="GLSLES">shaders\shd_thermal.shader</shader>
+    <shader type="GLSLES">shaders\shd_wave.shader</shader>
+    <shader type="GLSLES">shaders\shd_radial_blur.shader</shader>
+    <shader type="GLSLES">shaders\shd_refraction.shader</shader>
+    <shader type="GLSLES">shaders\shadows.shader</shader>
+    <shaders name="shd_grp_glow">
+      <shader type="GLSLES">shaders\shd_glow_map.shader</shader>
+    </shaders>
+    <shader type="GLSLES">shaders\sh_hue.shader</shader>
+  </shaders>
   <fonts name="fonts">
     <font>fonts\UI_font_Large</font>
     <font>fonts\UI_font_Small</font>
+    <font>fonts\font0</font>
+    <font>fonts\f_std</font>
   </fonts>
   <objects name="objects">
     <objects name="Controllers">
       <object>objects\obj_global_vars</object>
+      <object>objects\obj_Menu_UI</object>
       <object>objects\obj_Sound_Menu</object>
       <object>objects\obj_Sound_Gameplay</object>
       <object>objects\obj_Room_Controller</object>
       <object>objects\obj_Electric_Sound</object>
       <object>objects\obj_Crash_Sound</object>
+      <object>objects\obj_Level_Select_Manager</object>
     </objects>
     <object>objects\obj_Ninja</object>
     <object>objects\obj_Shuriken</object>
@@ -176,8 +227,12 @@
       <objects name="Buttons">
         <object>objects\obj_count_upgrade_button</object>
         <object>objects\obj_redirects_upgrade_button</object>
+        <object>objects\obj_level_button</object>
         <object>objects\obj_Play_Button</object>
+        <object>objects\obj_Level_Select</object>
         <object>objects\obj_Quit_Button</object>
+        <object>objects\obj_Level_Select_Back</object>
+        <object>objects\obj_Level_Select_Foward</object>
       </objects>
       <objects name="Text">
         <object>objects\obj_Title</object>
@@ -189,6 +244,7 @@
         <object>objects\obj_Upgrade</object>
         <object>objects\obj_Upgrade_Menu</object>
         <object>objects\obj_Question_Mark</object>
+        <object>objects\obj_Exclamation_Mark</object>
       </objects>
     </objects>
   </objects>
@@ -201,7 +257,9 @@
       <room>rooms\prototype_room_guards</room>
     </rooms>
     <room>rooms\room_menu</room>
-    <room>rooms\room_tutorial</room>
+    <room>rooms\room_level_select_exterior</room>
+    <room>rooms\room_level_select_laboratory</room>
+    <room>rooms\room_level_select_basement</room>
     <room>rooms\room_Level_1</room>
     <room>rooms\room_Level_2</room>
     <room>rooms\room_Level_3</room>
@@ -209,6 +267,7 @@
     <room>rooms\room_Level_5</room>
     <room>rooms\room_Level_6</room>
     <room>rooms\room_Level_7</room>
+    <room>rooms\room_Level_8</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

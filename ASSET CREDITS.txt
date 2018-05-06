@@ -1,0 +1,20 @@
+Music:
+Hokkaido.mp3 (Menu Music) - Joth (OpenGameArt.org)
+Kawarayu.ogg (Gameplay Music) - Yubatake (OpenGameArt.org)
+
+Sound Effects:
+Thrown Shuriken Sound (used for shuriken collision with guard) - Cody Mahan (Soundbible.com) [Public Domain]
+Grunt - whisperbandnumber1 (freesound.org)
+Shuriken Throw - Taira Komori (freesound.org)
+Stone Collision - thanvannispen (freesound.org)
+Wood Collision - alegemaate (freesound.org)
+Door Button Sound - kickhat (freesound.org)
+Orb Collect Sound - grunz (freesound.org)
+Success - Killersmurf96 (freesound.org)
+Large Crash with Cat - benjaminharveydesign (freesound.org)
+Switch - Deathscyp (freesound.org)
+Electric Buzz - deleted_user_7146007 (freesound.org)
+Pot Crash - PaulMorek (freesound.org)
+Metal Collision - alegemaate (freesound.org)
+Shuriken Redirect (Whoosh) - InspectorJ (freesound.org)
+Barrell Explosion - Tony B kksm (freesound.org)
