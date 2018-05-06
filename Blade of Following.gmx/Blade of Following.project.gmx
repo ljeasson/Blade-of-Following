@@ -97,9 +97,11 @@
       </sprites>
       <sprites name="Buttons">
         <sprite>sprites\spr_button</sprite>
+        <sprite>sprites\spr_Exit_Button</sprite>
         <sprite>sprites\spr_Back_Button</sprite>
         <sprite>sprites\spr_Foward_Button</sprite>
         <sprite>sprites\spr_level_button</sprite>
+        <sprite>sprites\spr_Menu_Back</sprite>
         <sprite>sprites\spr_Menu_Button</sprite>
         <sprite>sprites\spr_Play_Button</sprite>
         <sprite>sprites\spr_Level_Select</sprite>
@@ -127,7 +129,6 @@
     <background>background\background_4</background>
   </backgrounds>
   <paths name="paths"/>
-  <scripts name="scripts"/>
   <shaders name="shaders">
     <shader type="GLSLES">shaders\shd_bright_contrast.shader</shader>
     <shader type="GLSLES">shaders\shd_emboss.shader</shader>
@@ -228,11 +229,13 @@
         <object>objects\obj_count_upgrade_button</object>
         <object>objects\obj_redirects_upgrade_button</object>
         <object>objects\obj_level_button</object>
+        <object>objects\obj_Menu_Back</object>
         <object>objects\obj_Play_Button</object>
         <object>objects\obj_Level_Select</object>
         <object>objects\obj_Quit_Button</object>
         <object>objects\obj_Level_Select_Back</object>
         <object>objects\obj_Level_Select_Foward</object>
+        <object>objects\obj_Exit_Button</object>
       </objects>
       <objects name="Text">
         <object>objects\obj_Title</object>

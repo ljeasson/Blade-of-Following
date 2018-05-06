@@ -3,11 +3,13 @@
   <name>Hue Shader</name>
   <version>1.0.3</version>
   <packageID>com.keeveegames.hue</packageID>
-  <ProductID>D21821DD35549876B5A31D253D2ADF05</ProductID>
+  <ProductID></ProductID>
   <date>25/08/16</date>
   <license>Free to use, also for commercial games.</license>
   <description></description>
   <helpfile></helpfile>
+  <androidProps>-1</androidProps>
+  <iosProps>-1</iosProps>
   <installdir></installdir>
   <classname></classname>
   <androidclassname></androidclassname>
@@ -17,17 +19,9 @@
   <maclinkerflags></maclinkerflags>
   <maccompilerflags></maccompilerflags>
   <androidinject></androidinject>
-  <androidmanifestinject></androidmanifestinject>
-  <iosplistinject></iosplistinject>
-  <androidactivityinject></androidactivityinject>
   <gradleinject></gradleinject>
   <iosSystemFrameworks/>
   <iosThirdPartyFrameworks/>
-  <ConfigOptions>
-    <Config name="Default">
-      <CopyToMask>105553895391470</CopyToMask>
-    </Config>
-  </ConfigOptions>
   <androidPermissions/>
   <IncludedResources>
     <Resource>Sprites\s_player</Resource>

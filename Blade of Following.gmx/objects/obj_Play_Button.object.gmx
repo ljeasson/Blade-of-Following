@@ -151,7 +151,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>room_goto(room_tutorial);
+            <string>room_goto(room_Level_1);
 </string>
           </argument>
         </arguments>

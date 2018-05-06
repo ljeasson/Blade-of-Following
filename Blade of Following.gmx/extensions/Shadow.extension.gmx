@@ -3,11 +3,13 @@
   <name>Shadow</name>
   <version>1.0.0</version>
   <packageID>com.vishnyagames.shadow</packageID>
-  <ProductID>5D2534E7AC650CC3EFE13C7E372E5092</ProductID>
+  <ProductID></ProductID>
   <date>12/06/16</date>
   <license>Free to use, also for commercial games.</license>
   <description></description>
   <helpfile></helpfile>
+  <androidProps>-1</androidProps>
+  <iosProps>-1</iosProps>
   <installdir></installdir>
   <classname></classname>
   <androidclassname></androidclassname>
@@ -17,17 +19,9 @@
   <maclinkerflags></maclinkerflags>
   <maccompilerflags></maccompilerflags>
   <androidinject></androidinject>
-  <androidmanifestinject></androidmanifestinject>
-  <iosplistinject></iosplistinject>
-  <androidactivityinject></androidactivityinject>
   <gradleinject></gradleinject>
   <iosSystemFrameworks/>
   <iosThirdPartyFrameworks/>
-  <ConfigOptions>
-    <Config name="Default">
-      <CopyToMask>105553895391470</CopyToMask>
-    </Config>
-  </ConfigOptions>
   <androidPermissions/>
   <IncludedResources>
     <Resource>Sprites\s_box</Resource>

@@ -163,6 +163,7 @@
     <instance objName="obj_Level_Select_Manager" x="32" y="32" name="inst_6FB2C686" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Level_Select_Back" x="64" y="608" name="inst_5975E542" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Level_Select_Foward" x="912" y="608" name="inst_01770A14" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Menu_Back" x="48" y="48" name="inst_C7A6337B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

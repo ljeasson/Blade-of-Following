@@ -3,11 +3,13 @@
   <name>Free Shaders</name>
   <version>1.0.7</version>
   <packageID>com.xygthop3.shaderexamples</packageID>
-  <ProductID>CECD6130AB8696B30F2F7048F74A19E2</ProductID>
+  <ProductID></ProductID>
   <date>31/10/14</date>
   <license>Free to use, also for commercial games.</license>
   <description></description>
   <helpfile></helpfile>
+  <androidProps>-1</androidProps>
+  <iosProps>-1</iosProps>
   <installdir></installdir>
   <classname></classname>
   <androidclassname></androidclassname>
@@ -17,17 +19,9 @@
   <maclinkerflags></maclinkerflags>
   <maccompilerflags></maccompilerflags>
   <androidinject></androidinject>
-  <androidmanifestinject></androidmanifestinject>
-  <iosplistinject></iosplistinject>
-  <androidactivityinject></androidactivityinject>
   <gradleinject></gradleinject>
   <iosSystemFrameworks/>
   <iosThirdPartyFrameworks/>
-  <ConfigOptions>
-    <Config name="Default">
-      <CopyToMask>105553895391470</CopyToMask>
-    </Config>
-  </ConfigOptions>
   <androidPermissions/>
   <IncludedResources>
     <Resource>Sprites\spr_walk</Resource>
