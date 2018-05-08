@@ -223,6 +223,7 @@
         <object>objects\obj_Guard_Patrol</object>
         <object>objects\obj_Guard_Armored_Patrol</object>
       </objects>
+      <object>objects\obj_Emperor</object>
     </objects>
     <objects name="UI">
       <objects name="Buttons">
@@ -235,7 +236,6 @@
         <object>objects\obj_Quit_Button</object>
         <object>objects\obj_Level_Select_Back</object>
         <object>objects\obj_Level_Select_Foward</object>
-        <object>objects\obj_Exit_Button</object>
       </objects>
       <objects name="Text">
         <object>objects\obj_Title</object>
@@ -248,6 +248,24 @@
         <object>objects\obj_Upgrade_Menu</object>
         <object>objects\obj_Question_Mark</object>
         <object>objects\obj_Exclamation_Mark</object>
+      </objects>
+      <objects name="Level Buttons">
+        <object>objects\obj_Level_1</object>
+        <object>objects\obj_Level_2</object>
+        <object>objects\obj_Level_3</object>
+        <object>objects\obj_Level_4</object>
+        <object>objects\obj_Level_5</object>
+        <object>objects\obj_Level_6</object>
+        <object>objects\obj_Level_7</object>
+        <object>objects\obj_Level_8</object>
+        <object>objects\obj_Level_9</object>
+        <object>objects\obj_Level_10</object>
+        <object>objects\obj_Level_11</object>
+        <object>objects\obj_Level_12</object>
+        <object>objects\obj_Level_13</object>
+        <object>objects\obj_Level_14</object>
+        <object>objects\obj_Level_15</object>
+        <object>objects\obj_Level_16</object>
       </objects>
     </objects>
   </objects>
@@ -271,6 +289,9 @@
     <room>rooms\room_Level_6</room>
     <room>rooms\room_Level_7</room>
     <room>rooms\room_Level_8</room>
+    <room>rooms\room_Level_9</room>
+    <room>rooms\room_Level_17</room>
+    <room>rooms\room_Level_33</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
