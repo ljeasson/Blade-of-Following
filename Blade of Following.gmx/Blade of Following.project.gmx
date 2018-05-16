@@ -42,8 +42,11 @@
     <sprite>sprites\spr_Shuriken</sprite>
     <sprites name="Walls, Platforms, and Boundaries">
       <sprite>sprites\spr_Wall</sprite>
+      <sprite>sprites\spr_myWall</sprite>
       <sprite>sprites\spr_Wall_Half</sprite>
+      <sprite>sprites\spr_myWall_Half</sprite>
       <sprite>sprites\spr_roof</sprite>
+      <sprite>sprites\spr_myRoof</sprite>
       <sprite>sprites\spr_Platform</sprite>
       <sprite>sprites\spr_bamboo_vertical</sprite>
       <sprite>sprites\spr_bamboo_horizontal</sprite>
@@ -71,6 +74,12 @@
       <sprite>sprites\spr_Goal_R_Activated</sprite>
       <sprite>sprites\spr_Goal_U</sprite>
       <sprite>sprites\spr_Goal_U_Activated</sprite>
+      <sprite>sprites\spr_Depletion_Switch</sprite>
+      <sprite>sprites\spr_Reversal_Switch</sprite>
+      <sprite>sprites\spr_Moving_Platform_Switch</sprite>
+      <sprite>sprites\spr_Moving_Platform_Switch_R</sprite>
+      <sprite>sprites\spr_Moving_Platform_Switch_L</sprite>
+      <sprite>sprites\spr_Moving_Platform_Switch_Brace</sprite>
     </sprites>
     <sprites name="Environment">
       <sprite>sprites\spr_Door_Closed</sprite>
@@ -78,15 +87,21 @@
       <sprite>sprites\spr_Electric_Barrier</sprite>
       <sprite>sprites\spr_Guard_Barrier</sprite>
       <sprite>sprites\spr_Electircity</sprite>
+      <sprite>sprites\spr_Depletion_Barrier</sprite>
       <sprite>sprites\spr_Fire</sprite>
       <sprite>sprites\spr_Brazier</sprite>
       <sprite>sprites\spr_Poison</sprite>
       <sprite>sprites\spr_Water</sprite>
+      <sprite>sprites\spr_Reversal_Field</sprite>
+      <sprite>sprites\spr_Puddle</sprite>
       <sprite>sprites\spr_Pot</sprite>
       <sprite>sprites\spr_Pot_Broken</sprite>
       <sprite>sprites\spr_Barrel</sprite>
       <sprite>sprites\spr_Explosion</sprite>
       <sprite>sprites\spr_Sound_Wave</sprite>
+      <sprite>sprites\spr_Moving_Platform</sprite>
+      <sprite>sprites\spr_Portal_1</sprite>
+      <sprite>sprites\spr_Portal_2</sprite>
     </sprites>
     <sprites name="UI">
       <sprites name="Upgrades">
@@ -118,6 +133,9 @@
         <sprite>sprites\spr_Upgrade_Menu</sprite>
         <sprite>sprites\spr_Question_Mark</sprite>
         <sprite>sprites\spr_Exclamiation_Mark</sprite>
+        <sprite>sprites\spr_Oxonian_Games_FadeIn</sprite>
+        <sprite>sprites\spr_Oxonian_Games_FadeOut</sprite>
+        <sprite>sprites\spr_Proceed</sprite>
       </sprites>
     </sprites>
   </sprites>
@@ -129,6 +147,9 @@
     <background>background\background_4</background>
   </backgrounds>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\gj_init.gml</script>
+  </scripts>
   <shaders name="shaders">
     <shader type="GLSLES">shaders\shd_bright_contrast.shader</shader>
     <shader type="GLSLES">shaders\shd_emboss.shader</shader>
@@ -173,12 +194,14 @@
       <object>objects\obj_Electric_Sound</object>
       <object>objects\obj_Crash_Sound</object>
       <object>objects\obj_Level_Select_Manager</object>
+      <object>objects\obj_Logo_Manager</object>
     </objects>
     <object>objects\obj_Ninja</object>
     <object>objects\obj_Shuriken</object>
     <object>objects\obj_Trap_Shuriken</object>
     <object>objects\obj_Distraction_Shuriken</object>
     <object>objects\obj_Upgrade_Orb_1</object>
+    <object>objects\obj_Upgrade_Orb_2</object>
     <objects name="Walls, Boundaries, and Platforms">
       <object>objects\obj_Wall</object>
       <object>objects\obj_Wall_Half</object>
@@ -194,6 +217,10 @@
       <object>objects\obj_Goal_L</object>
       <object>objects\obj_Goal_R</object>
       <object>objects\obj_Goal_U</object>
+      <object>objects\obj_Depletion_Switch</object>
+      <object>objects\obj_Reversal_Switch</object>
+      <object>objects\obj_Moving_Platform_Switch</object>
+      <object>objects\obj_Moving_Platform_Switch_Brace</object>
     </objects>
     <objects name="Environment">
       <object>objects\obj_Electric_Barrier</object>
@@ -201,8 +228,11 @@
       <object>objects\obj_Fire</object>
       <object>objects\obj_Brazier</object>
       <object>objects\obj_Electricity</object>
+      <object>objects\obj_Depletion_Barrier</object>
       <object>objects\obj_Poison</object>
       <object>objects\obj_Water</object>
+      <object>objects\obj_Reversal_Field</object>
+      <object>objects\obj_Puddle</object>
       <object>objects\obj_Door_Closed</object>
       <object>objects\obj_Door_Open</object>
       <object>objects\obj_Pot</object>
@@ -211,6 +241,9 @@
       <object>objects\obj_Marker</object>
       <object>objects\obj_Explosion</object>
       <object>objects\obj_Sound_Wave</object>
+      <object>objects\obj_Moving_Platform</object>
+      <object>objects\obj_Portal_1</object>
+      <object>objects\obj_Portal_2</object>
     </objects>
     <objects name="Guards">
       <objects name="Standstill">
@@ -268,16 +301,24 @@
         <object>objects\obj_Level_16</object>
       </objects>
     </objects>
+    <object>objects\obj_Logo</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room_global_vars</room>
     <room>rooms\room_header</room>
+    <room>rooms\room_Logo</room>
+    <room>rooms\room_menu</room>
     <rooms name="test rooms">
       <room>rooms\prototype_room_barrier</room>
       <room>rooms\prototype_room_electric</room>
       <room>rooms\prototype_room_guards</room>
+      <room>rooms\room_test_water</room>
+      <room>rooms\room_test_upside_down</room>
+      <room>rooms\room_test_depletion_barrier</room>
+      <room>rooms\room_test_reversal_field</room>
+      <room>rooms\room_test_moving_platforms</room>
+      <room>rooms\room_test_portals</room>
     </rooms>
-    <room>rooms\room_menu</room>
     <room>rooms\room_level_select_exterior</room>
     <room>rooms\room_level_select_laboratory</room>
     <room>rooms\room_level_select_basement</room>

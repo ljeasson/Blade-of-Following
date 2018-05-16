@@ -179,8 +179,6 @@
     <instance objName="obj_bamboo_vertical" x="992" y="672" name="inst_AD4475CA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_bamboo_vertical" x="992" y="704" name="inst_DC89CBE9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Wall" x="832" y="736" name="inst_423A2052" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Exit" x="32" y="288" name="inst_46A98481" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Goal" x="48" y="144" name="inst_3A17F400" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Platform" x="576" y="352" name="inst_66A11BA8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Platform" x="608" y="352" name="inst_74A0E276" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Platform" x="640" y="352" name="inst_45A19878" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>

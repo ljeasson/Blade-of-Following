@@ -225,7 +225,7 @@
         <arguments>
           <argument>
             <kind>10</kind>
-            <object>obj_Water</object>
+            <object>obj_Puddle</object>
           </argument>
           <argument>
             <kind>0</kind>
