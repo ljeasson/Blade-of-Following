@@ -20,6 +20,6 @@
   <width>32</width>
   <height>48</height>
   <frames>
-    <frame index="0">images\spr_Barrel_0.png</frame>
+    <frame index="0">images\spr_Barrel_Broken_0.png</frame>
   </frames>
 </sprite>

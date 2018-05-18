@@ -34,6 +34,9 @@ global.shuriken_redirects = 3;
 //Shuriken Collects
 global.shuriken_1_collected = false;
 global.shuriken_2_collected = false;
+global.shuriken_3_collected = false;
+global.shuriken_4_collected = false;
+global.shuriken_5_collected = false;
 
 //Upgrade Points
 global.upgrade_points = 0;
