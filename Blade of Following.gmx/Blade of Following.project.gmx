@@ -120,6 +120,7 @@
         <sprite>sprites\spr_Back_Button</sprite>
         <sprite>sprites\spr_Foward_Button</sprite>
         <sprite>sprites\spr_level_button</sprite>
+        <sprite>sprites\spr_Lock</sprite>
         <sprite>sprites\spr_level_button_hover</sprite>
         <sprite>sprites\spr_Menu_Back</sprite>
         <sprite>sprites\spr_Menu_Button</sprite>
@@ -156,6 +157,9 @@
   <paths name="paths"/>
   <scripts name="scripts">
     <script>scripts\gj_init.gml</script>
+    <script>scripts\scr_slide.gml</script>
+    <script>scripts\scr_fade.gml</script>
+    <script>scripts\scr_is_visited.gml</script>
   </scripts>
   <shaders name="shaders">
     <shader type="GLSLES">shaders\shd_bright_contrast.shader</shader>
@@ -311,9 +315,13 @@
         <object>objects\obj_Level_12</object>
       </objects>
     </objects>
+    <object>objects\obj_Fade</object>
+    <object>objects\obj_Fade_Target</object>
+    <object>objects\obj_Slide</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room_global_vars</room>
+    <room>rooms\room_thumbnail</room>
     <room>rooms\room_header</room>
     <room>rooms\room_Logo</room>
     <room>rooms\room_menu</room>
@@ -341,9 +349,8 @@
     <room>rooms\room_Level_8</room>
     <room>rooms\room_Level_9</room>
     <room>rooms\room_Level_10</room>
+    <room>rooms\room_Level_11</room>
     <room>rooms\room_Level_12</room>
-    <room>rooms\room_Level_13</room>
-    <room>rooms\room_Level_33</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

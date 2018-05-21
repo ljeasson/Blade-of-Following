@@ -79,10 +79,10 @@
             <kind>1</kind>
             <string>/// Cycle backwards through rooms
 if (room == room_level_select_laboratory)
-    room_goto(room_level_select_exterior);
+    scr_fade(room_level_select_exterior);
 
 if (room == room_level_select_basement)
-    room_goto(room_level_select_laboratory);
+    scr_fade(room_level_select_laboratory);
 </string>
           </argument>
         </arguments>

@@ -42,8 +42,24 @@ global.shuriken_5_collected = false;
 global.upgrade_points = 0;
 global.max_upgrade_points = 10;
 
+//Assign visited indicators to rooms
+global.level_visited_1 = false;
+global.level_visited_2 = false;
+global.level_visited_3 = false;
+global.level_visited_4 = false;
+global.level_visited_5 = false;
+global.level_visited_6 = false;
+global.level_visited_7 = false;
+global.level_visited_8 = false;
+global.level_visited_9 = false;
+global.level_visited_10 = false;
+global.level_visited_11 = false;
+global.level_visited_12 = false;
+
+    
 
 //Go to menu
+//room_goto_next();
 room_goto(room_Logo);
 
 // GAMEJOLT API

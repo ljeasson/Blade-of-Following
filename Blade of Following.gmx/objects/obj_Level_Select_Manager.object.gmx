@@ -43,7 +43,7 @@ else if (room == room_level_select_basement)
 for (i = 1; i &lt;= 7; i+=2) {
     for (j = 0; j &lt; 3; j++) {
         instance_create(64 + 128*j, 64*i + 48, obj_level_button);
-        draw_set_font(UI_font_Large);
+        draw_set_font(UI_font_Large);  
         draw_text(112 + 128*j - 2, (64 * i - 4) + 48, label);
         label++;
     }

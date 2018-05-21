@@ -27,12 +27,12 @@
             <kind>1</kind>
             <string>if (room = room_level_select_exterior) {
     if (room_exists(room_Level_1))
-        room_goto(room_Level_1);
+        scr_fade(room_Level_1);
 }
 
 if (room = room_level_select_laboratory) {      
-    if (room_exists(room_Level_17))
-        room_goto(room_Level_17);
+    if (room_exists(room_Level_13))
+        scr_fade(room_Level_13);
 }
               
 if (room = room_level_select_basement) {
