@@ -162,7 +162,6 @@
     <instance objName="obj_Ninja" x="864" y="704" name="inst_91BF365F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Level_Select_Manager" x="32" y="32" name="inst_6FB2C686" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Level_Select_Back" x="64" y="624" name="inst_FAFAB3CC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Level_Select_Foward" x="896" y="624" name="inst_E48C493B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Menu_Back" x="48" y="48" name="inst_CF4943B9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Emperor" x="944" y="672" name="inst_6ECB314E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Level_1" x="64" y="112" name="inst_A8520C78" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>

@@ -13,6 +13,7 @@
     <sounds name="Background">
       <sound>sound\snd_Background_1</sound>
       <sound>sound\snd_Background_2</sound>
+      <sound>sound\snd_Background_3</sound>
     </sounds>
     <sounds name="SFX">
       <sound>sound\snd_Throw</sound>
@@ -200,7 +201,8 @@
       <object>objects\obj_global_vars</object>
       <object>objects\obj_Menu_UI</object>
       <object>objects\obj_Sound_Menu</object>
-      <object>objects\obj_Sound_Gameplay</object>
+      <object>objects\obj_Sound_Gameplay_Exterior</object>
+      <object>objects\obj_Sound_Gameplay_Laboratory</object>
       <object>objects\obj_Room_Controller</object>
       <object>objects\obj_Electric_Sound</object>
       <object>objects\obj_Crash_Sound</object>
@@ -351,6 +353,8 @@
     <room>rooms\room_Level_10</room>
     <room>rooms\room_Level_11</room>
     <room>rooms\room_Level_12</room>
+    <room>rooms\room_Level_13</room>
+    <room>rooms\room_Level_16</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

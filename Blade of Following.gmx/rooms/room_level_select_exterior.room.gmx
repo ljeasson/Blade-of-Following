@@ -175,6 +175,7 @@
     <instance objName="obj_Level_10" x="64" y="496" name="inst_8212AE6F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Level_11" x="192" y="496" name="inst_54568B82" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Level_12" x="320" y="496" name="inst_9ADA053E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Level_Select_Foward" x="896" y="624" name="inst_9FF9310B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

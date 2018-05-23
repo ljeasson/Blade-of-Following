@@ -318,7 +318,7 @@
     <instance objName="obj_Barrell" x="392" y="456" name="inst_755F2F46" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Barrell" x="344" y="456" name="inst_CC16DB8E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Barrell" x="368" y="408" name="inst_A7C9881C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Sound_Gameplay" x="40" y="40" name="inst_74298322" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Sound_Gameplay_Exterior" x="40" y="40" name="inst_74298322" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

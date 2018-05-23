@@ -280,7 +280,7 @@
     <instance objName="obj_Wall_Half" x="368" y="512" name="inst_A921C360" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Wall_Half" x="352" y="512" name="inst_2B0E9058" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Switch" x="352" y="464" name="inst_6D3F313A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Sound_Gameplay" x="40" y="40" name="inst_87C870C7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Sound_Gameplay_Exterior" x="40" y="40" name="inst_87C870C7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
