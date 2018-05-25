@@ -35,6 +35,13 @@
     </sounds>
   </sounds>
   <sprites name="sprites">
+    <sprites name="Old Sprites">
+      <sprite>sprites\spr_Wall</sprite>
+      <sprite>sprites\spr_Wall_Half</sprite>
+      <sprite>sprites\spr_roof</sprite>
+      <sprite>sprites\spr_bamboo_vertical</sprite>
+      <sprite>sprites\spr_bamboo_horizontal</sprite>
+    </sprites>
     <sprite>sprites\spr_Ninja</sprite>
     <sprite>sprites\spr_Ninja_Eyes_Closed</sprite>
     <sprite>sprites\spr_Ninja_Happy</sprite>
@@ -42,15 +49,14 @@
     <sprite>sprites\spr_Ninja_Wide_Eyes</sprite>
     <sprite>sprites\spr_Shuriken</sprite>
     <sprites name="Walls, Platforms, and Boundaries">
-      <sprite>sprites\spr_Wall</sprite>
       <sprite>sprites\spr_myWall</sprite>
-      <sprite>sprites\spr_Wall_Half</sprite>
       <sprite>sprites\spr_myWall_Half</sprite>
-      <sprite>sprites\spr_roof</sprite>
       <sprite>sprites\spr_myRoof</sprite>
       <sprite>sprites\spr_Platform</sprite>
-      <sprite>sprites\spr_bamboo_vertical</sprite>
-      <sprite>sprites\spr_bamboo_horizontal</sprite>
+      <sprite>sprites\spr_myBamboo_Vertical</sprite>
+      <sprite>sprites\spr_myBamboo_Horizontal</sprite>
+      <sprite>sprites\spr_myBamboo_breaking</sprite>
+      <sprite>sprites\spr_myBamboo_burning</sprite>
       <sprite>sprites\spr_wood_support</sprite>
       <sprite>sprites\spr_Marker</sprite>
     </sprites>
@@ -63,6 +69,8 @@
       <sprite>sprites\spr_Guard_Armored_R_Eyes_Closed</sprite>
       <sprite>sprites\spr_Guard_Armored_L</sprite>
       <sprite>sprites\spr_Guard_Armored_L_Eyes_Closed</sprite>
+      <sprite>sprites\spr_Warlord</sprite>
+      <sprite>sprites\spr_Warlord_Eyes_Closed</sprite>
     </sprites>
     <sprites name="Switches and Buttons">
       <sprite>sprites\spr_Electric_Box</sprite>
@@ -197,6 +205,11 @@
     <font>fonts\f_std</font>
   </fonts>
   <objects name="objects">
+    <objects name="Old Objects">
+      <object>objects\obj_Slide</object>
+      <object>objects\obj_Trap_Shuriken</object>
+      <object>objects\obj_Distraction_Shuriken</object>
+    </objects>
     <objects name="Controllers">
       <object>objects\obj_global_vars</object>
       <object>objects\obj_Menu_UI</object>
@@ -208,16 +221,18 @@
       <object>objects\obj_Crash_Sound</object>
       <object>objects\obj_Level_Select_Manager</object>
       <object>objects\obj_Logo_Manager</object>
+      <object>objects\obj_Fade</object>
+      <object>objects\obj_Fade_Target</object>
     </objects>
     <object>objects\obj_Ninja</object>
     <object>objects\obj_Shuriken</object>
-    <object>objects\obj_Trap_Shuriken</object>
-    <object>objects\obj_Distraction_Shuriken</object>
-    <object>objects\obj_Upgrade_Orb_1</object>
-    <object>objects\obj_Upgrade_Orb_2</object>
-    <object>objects\obj_Upgrade_Orb_3</object>
-    <object>objects\obj_Upgrade_Orb_4</object>
-    <object>objects\obj_Upgrade_Orb_5</object>
+    <objects name="Upgrade Orbs">
+      <object>objects\obj_Upgrade_Orb_1</object>
+      <object>objects\obj_Upgrade_Orb_2</object>
+      <object>objects\obj_Upgrade_Orb_3</object>
+      <object>objects\obj_Upgrade_Orb_4</object>
+      <object>objects\obj_Upgrade_Orb_5</object>
+    </objects>
     <objects name="Walls, Boundaries, and Platforms">
       <object>objects\obj_Wall</object>
       <object>objects\obj_Wall_Half</object>
@@ -225,6 +240,8 @@
       <object>objects\obj_roof</object>
       <object>objects\obj_bamboo_vertical</object>
       <object>objects\obj_bamboo_horizontal</object>
+      <object>objects\obj_bamboo_burning</object>
+      <object>objects\obj_bamboo_breaking</object>
       <object>objects\obj_wood_support</object>
     </objects>
     <objects name="Switches and Buttons">
@@ -275,7 +292,7 @@
         <object>objects\obj_Guard_Patrol</object>
         <object>objects\obj_Guard_Armored_Patrol</object>
       </objects>
-      <object>objects\obj_Emperor</object>
+      <object>objects\obj_Warlord</object>
     </objects>
     <objects name="UI">
       <objects name="Buttons">
@@ -299,7 +316,9 @@
         <object>objects\obj_Upgrade</object>
         <object>objects\obj_Upgrade_Menu</object>
         <object>objects\obj_Question_Mark</object>
+        <object>objects\obj_Question_Mark_Static</object>
         <object>objects\obj_Exclamation_Mark</object>
+        <object>objects\obj_Exclamiation_Mark_Static</object>
         <object>objects\obj_Logo</object>
       </objects>
       <objects name="Level Buttons">
@@ -317,9 +336,6 @@
         <object>objects\obj_Level_12</object>
       </objects>
     </objects>
-    <object>objects\obj_Fade</object>
-    <object>objects\obj_Fade_Target</object>
-    <object>objects\obj_Slide</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room_global_vars</room>
@@ -354,7 +370,10 @@
     <room>rooms\room_Level_11</room>
     <room>rooms\room_Level_12</room>
     <room>rooms\room_Level_13</room>
+    <room>rooms\room_Level_14</room>
     <room>rooms\room_Level_16</room>
+    <room>rooms\room_Level_28</room>
+    <room>rooms\room_Level_30</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
