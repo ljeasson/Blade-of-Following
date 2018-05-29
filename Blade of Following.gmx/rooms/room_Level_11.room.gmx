@@ -196,7 +196,7 @@
     <instance objName="obj_Wall" x="576" y="96" name="inst_9A0F4944" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Wall" x="576" y="64" name="inst_37702E74" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Wall" x="576" y="32" name="inst_01D759ED" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Moving_Platform_Switch_Brace" x="528" y="120" name="inst_26B93D2A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="90"/>
+    <instance objName="obj_Switch_Brace" x="528" y="120" name="inst_26B93D2A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="90"/>
     <instance objName="obj_Wall" x="128" y="480" name="inst_93EA8C96" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Wall" x="128" y="512" name="inst_33B0D8EC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Wall" x="128" y="544" name="inst_E9E1D2C7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>

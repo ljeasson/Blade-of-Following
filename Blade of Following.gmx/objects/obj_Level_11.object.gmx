@@ -25,8 +25,20 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (room_exists(room_Level_11))
-    scr_fade(room_Level_11);
+            <string>if (room = room_level_select_exterior) {
+    if (room_exists(room_Level_11))
+        scr_fade(room_Level_11);
+}
+
+if (room = room_level_select_laboratory) {      
+    if (room_exists(room_Level_23))
+        scr_fade(room_Level_23);
+}
+              
+if (room = room_level_select_basement) {
+    if (room_exists(room_Level_35)) 
+        room_goto(room_Level_35);      
+}
 </string>
           </argument>
         </arguments>

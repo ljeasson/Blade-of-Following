@@ -36,8 +36,8 @@ if (room = room_level_select_laboratory) {
 }
               
 if (room = room_level_select_basement) {
-    if (room_exists(room_Level_33)) 
-        room_goto(room_Level_33);      
+    if (room_exists(room_Level_25)) 
+        room_goto(room_Level_25);      
 }
 </string>
           </argument>

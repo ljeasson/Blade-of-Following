@@ -43,6 +43,8 @@
       <sprite>sprites\spr_bamboo_horizontal</sprite>
     </sprites>
     <sprite>sprites\spr_Ninja</sprite>
+    <sprite>sprites\spr_Ninja_Left</sprite>
+    <sprite>sprites\spr_Ninja_Right</sprite>
     <sprite>sprites\spr_Ninja_Eyes_Closed</sprite>
     <sprite>sprites\spr_Ninja_Happy</sprite>
     <sprite>sprites\spr_Frustrated</sprite>
@@ -63,12 +65,24 @@
     <sprites name="Guards">
       <sprite>sprites\spr_Guard_R</sprite>
       <sprite>sprites\spr_Guard_R_Eyes_Closed</sprite>
+      <sprite>sprites\spr_Guard_R_Shocking</sprite>
+      <sprite>sprites\spr_Guard_R_Crispy</sprite>
+      <sprite>sprites\spr_Guard_R_Squarshed</sprite>
+      <sprite>sprites\spr_Guard_Poisoned_R</sprite>
       <sprite>sprites\spr_Guard_L</sprite>
       <sprite>sprites\spr_Guard_L_Eyes_Closed</sprite>
+      <sprite>sprites\spr_Guard_L_Shocking</sprite>
+      <sprite>sprites\spr_Guard_L_Crispy</sprite>
+      <sprite>sprites\spr_Guard_L_Squarshed</sprite>
+      <sprite>sprites\spr_Guard_L_Poisoned</sprite>
       <sprite>sprites\spr_Guard_Armored_R</sprite>
       <sprite>sprites\spr_Guard_Armored_R_Eyes_Closed</sprite>
+      <sprite>sprites\spr_Guard_Armored_R_Shocking</sprite>
+      <sprite>sprites\spr_Guard_Armored_R_Squarshed</sprite>
       <sprite>sprites\spr_Guard_Armored_L</sprite>
       <sprite>sprites\spr_Guard_Armored_L_Eyes_Closed</sprite>
+      <sprite>sprites\spr_Guard_Armored_L_Shocking</sprite>
+      <sprite>sprites\spr_Guard_Armored_L_Squarshed</sprite>
       <sprite>sprites\spr_Warlord</sprite>
       <sprite>sprites\spr_Warlord_Eyes_Closed</sprite>
     </sprites>
@@ -115,6 +129,7 @@
       <sprite>sprites\spr_Moving_Platform</sprite>
       <sprite>sprites\spr_Portal_1</sprite>
       <sprite>sprites\spr_Portal_2</sprite>
+      <sprite>sprites\spr_Fan_On</sprite>
     </sprites>
     <sprites name="UI">
       <sprites name="Upgrades">
@@ -155,6 +170,10 @@
     </sprites>
     <sprite>sprites\spr_Sniper_Rifle</sprite>
     <sprite>sprites\spr_Oil_Puddle</sprite>
+    <sprite>sprites\spr_Water_Top</sprite>
+    <sprite>sprites\spr_Water_Switch_Off</sprite>
+    <sprite>sprites\spr_Water_Switch_On</sprite>
+    <sprite>sprites\spr_Vent</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\tech_tiles</background>
@@ -254,7 +273,8 @@
       <object>objects\obj_Depletion_Switch</object>
       <object>objects\obj_Reversal_Switch</object>
       <object>objects\obj_Moving_Platform_Switch</object>
-      <object>objects\obj_Moving_Platform_Switch_Brace</object>
+      <object>objects\obj_Water_Switch</object>
+      <object>objects\obj_Switch_Brace</object>
     </objects>
     <objects name="Environment">
       <object>objects\obj_Electric_Barrier</object>
@@ -280,6 +300,10 @@
       <object>objects\obj_Moving_Platform</object>
       <object>objects\obj_Portal_1</object>
       <object>objects\obj_Portal_2</object>
+      <object>objects\obj_Fan</object>
+      <object>objects\obj_Water_Top</object>
+      <object>objects\obj_Vent</object>
+      <object>objects\obj_Vent_Passed</object>
     </objects>
     <objects name="Guards">
       <objects name="Standstill">
@@ -291,6 +315,16 @@
       <objects name="Patrol">
         <object>objects\obj_Guard_Patrol</object>
         <object>objects\obj_Guard_Armored_Patrol</object>
+      </objects>
+      <objects name="Death Animations">
+        <object>objects\obj_Guard_Shocking_R</object>
+        <object>objects\obj_Guard_Shocking_L</object>
+        <object>objects\obj_Guard_R_Squarshed</object>
+        <object>objects\obj_Guard_L_Squarshed</object>
+        <object>objects\obj_Guard_Armored_R_Squarshed</object>
+        <object>objects\obj_Guard_Armored_L_Squarshed</object>
+        <object>objects\obj_Guard_Poisoned_L</object>
+        <object>objects\obj_Guard_Poisoned_R</object>
       </objects>
       <object>objects\obj_Warlord</object>
     </objects>
@@ -349,6 +383,7 @@
       <room>rooms\prototype_room_guards</room>
       <room>rooms\room_test_water</room>
       <room>rooms\room_test_upside_down</room>
+      <room>rooms\room_test_fan</room>
       <room>rooms\room_test_depletion_barrier</room>
       <room>rooms\room_test_reversal_field</room>
       <room>rooms\room_test_moving_platforms</room>
@@ -357,23 +392,48 @@
     <room>rooms\room_level_select_exterior</room>
     <room>rooms\room_level_select_laboratory</room>
     <room>rooms\room_level_select_basement</room>
-    <room>rooms\room_Level_1</room>
-    <room>rooms\room_Level_2</room>
-    <room>rooms\room_Level_3</room>
-    <room>rooms\room_Level_4</room>
-    <room>rooms\room_Level_5</room>
-    <room>rooms\room_Level_6</room>
-    <room>rooms\room_Level_7</room>
-    <room>rooms\room_Level_8</room>
-    <room>rooms\room_Level_9</room>
-    <room>rooms\room_Level_10</room>
-    <room>rooms\room_Level_11</room>
-    <room>rooms\room_Level_12</room>
-    <room>rooms\room_Level_13</room>
-    <room>rooms\room_Level_14</room>
-    <room>rooms\room_Level_16</room>
-    <room>rooms\room_Level_28</room>
-    <room>rooms\room_Level_30</room>
+    <rooms name="Exterior">
+      <room>rooms\room_Level_1</room>
+      <room>rooms\room_Level_2</room>
+      <room>rooms\room_Level_3</room>
+      <room>rooms\room_Level_4</room>
+      <room>rooms\room_Level_5</room>
+      <room>rooms\room_Level_6</room>
+      <room>rooms\room_Level_7</room>
+      <room>rooms\room_Level_8</room>
+      <room>rooms\room_Level_9</room>
+      <room>rooms\room_Level_10</room>
+      <room>rooms\room_Level_11</room>
+      <room>rooms\room_Level_12</room>
+    </rooms>
+    <rooms name="Laboratory">
+      <room>rooms\room_Level_13</room>
+      <room>rooms\room_Level_14</room>
+      <room>rooms\room_Level_15</room>
+      <room>rooms\room_Level_16</room>
+      <room>rooms\room_Level_17</room>
+      <room>rooms\room_Level_18</room>
+      <room>rooms\room_Level_19</room>
+      <room>rooms\room_Level_20</room>
+      <room>rooms\room_Level_21</room>
+      <room>rooms\room_Level_22</room>
+      <room>rooms\room_Level_23</room>
+      <room>rooms\room_Level_24</room>
+    </rooms>
+    <rooms name="Basement">
+      <room>rooms\room_Level_25</room>
+      <room>rooms\room_Level_26</room>
+      <room>rooms\room_Level_27</room>
+      <room>rooms\room_Level_28</room>
+      <room>rooms\room_Level_29</room>
+      <room>rooms\room_Level_30</room>
+      <room>rooms\room_Level_31</room>
+      <room>rooms\room_Level_32</room>
+      <room>rooms\room_Level_33</room>
+      <room>rooms\room_Level_34</room>
+      <room>rooms\room_Level_35</room>
+      <room>rooms\room_Level_36</room>
+    </rooms>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
