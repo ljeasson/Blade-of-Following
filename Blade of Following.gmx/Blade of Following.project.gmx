@@ -176,11 +176,16 @@
     <sprite>sprites\spr_Vent</sprite>
   </sprites>
   <backgrounds name="background">
+    <backgrounds name="Old Backgrounds">
+      <background>background\background_1</background>
+      <background>background\background_3</background>
+      <background>background\background_4</background>
+    </backgrounds>
     <background>background\tech_tiles</background>
-    <background>background\background_1</background>
     <background>background\background_2</background>
-    <background>background\background_3</background>
-    <background>background\background_4</background>
+    <background>background\background_Exterior</background>
+    <background>background\background_Laboratory</background>
+    <background>background\background_Basement</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
