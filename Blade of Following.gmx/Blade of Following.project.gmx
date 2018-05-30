@@ -150,6 +150,7 @@
         <sprite>sprites\spr_Menu_Button</sprite>
         <sprite>sprites\spr_Play_Button</sprite>
         <sprite>sprites\spr_Level_Select</sprite>
+        <sprite>sprites\spr_Credits</sprite>
         <sprite>sprites\spr_Quit_Button</sprite>
       </sprites>
       <sprites name="Text">
@@ -181,7 +182,9 @@
       <background>background\background_3</background>
       <background>background\background_4</background>
     </backgrounds>
-    <background>background\tech_tiles</background>
+    <backgrounds name="Tilesets">
+      <background>background\tech_tiles</background>
+    </backgrounds>
     <background>background\background_2</background>
     <background>background\background_Exterior</background>
     <background>background\background_Laboratory</background>
@@ -341,6 +344,7 @@
         <object>objects\obj_Menu_Back</object>
         <object>objects\obj_Play_Button</object>
         <object>objects\obj_Level_Select</object>
+        <object>objects\obj_Credits</object>
         <object>objects\obj_Quit_Button</object>
         <object>objects\obj_Level_Select_Back</object>
         <object>objects\obj_Level_Select_Foward</object>
