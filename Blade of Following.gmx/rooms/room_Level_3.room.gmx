@@ -214,6 +214,7 @@
     <instance objName="obj_Wall" x="288" y="736" name="inst_688CE0FC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Menu_Back" x="40" y="40" name="inst_D8A01D95" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Sound_Gameplay_Exterior" x="40" y="40" name="inst_B0AE309F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Exterior_Background_Randomizer" x="40" y="72" name="inst_096ED2DE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

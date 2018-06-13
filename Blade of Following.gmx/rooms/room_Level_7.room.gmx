@@ -389,6 +389,7 @@
     <instance objName="obj_Brazier" x="424" y="32" name="inst_69E4FD72" locked="0" code="" scaleX="0.75" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Brazier" x="424" y="288" name="inst_27A793FA" locked="0" code="" scaleX="0.75" scaleY="1" colour="4294967295" rotation="180"/>
     <instance objName="obj_Sound_Gameplay_Exterior" x="32" y="40" name="inst_ABCB4270" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Exterior_Background_Randomizer" x="32" y="72" name="inst_BD8F181D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

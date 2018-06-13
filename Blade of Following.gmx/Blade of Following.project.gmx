@@ -14,6 +14,7 @@
       <sound>sound\snd_Background_1</sound>
       <sound>sound\snd_Background_2</sound>
       <sound>sound\snd_Background_3</sound>
+      <sound>sound\snd_Crypt</sound>
     </sounds>
     <sounds name="SFX">
       <sound>sound\snd_Throw</sound>
@@ -175,6 +176,8 @@
     <sprite>sprites\spr_Water_Switch_Off</sprite>
     <sprite>sprites\spr_Water_Switch_On</sprite>
     <sprite>sprites\spr_Vent</sprite>
+    <sprite>sprites\spr_Crosshair</sprite>
+    <sprite>sprites\spr_Crosshair_2</sprite>
   </sprites>
   <backgrounds name="background">
     <backgrounds name="Old Backgrounds">
@@ -187,6 +190,9 @@
     </backgrounds>
     <background>background\background_2</background>
     <background>background\background_Exterior</background>
+    <background>background\background_Exterior_Buildings_1</background>
+    <background>background\background_Exterior_Buildings_2</background>
+    <background>background\background_Exterior_Buildings_3</background>
     <background>background\background_Laboratory</background>
     <background>background\background_Basement</background>
   </backgrounds>
@@ -233,6 +239,7 @@
   </fonts>
   <objects name="objects">
     <objects name="Old Objects">
+      <object>objects\obj_Exterior_Background_Randomizer</object>
       <object>objects\obj_Slide</object>
       <object>objects\obj_Trap_Shuriken</object>
       <object>objects\obj_Distraction_Shuriken</object>
@@ -243,6 +250,7 @@
       <object>objects\obj_Sound_Menu</object>
       <object>objects\obj_Sound_Gameplay_Exterior</object>
       <object>objects\obj_Sound_Gameplay_Laboratory</object>
+      <object>objects\obj_Sound_Gameplay_Crypt</object>
       <object>objects\obj_Room_Controller</object>
       <object>objects\obj_Electric_Sound</object>
       <object>objects\obj_Crash_Sound</object>
@@ -250,6 +258,9 @@
       <object>objects\obj_Logo_Manager</object>
       <object>objects\obj_Fade</object>
       <object>objects\obj_Fade_Target</object>
+      <object>objects\obj_Lighting_Dark</object>
+      <object>objects\obj_Lighting_Bright</object>
+      <object>objects\obj_Lighting_White</object>
     </objects>
     <object>objects\obj_Ninja</object>
     <object>objects\obj_Shuriken</object>
@@ -379,6 +390,7 @@
         <object>objects\obj_Level_12</object>
       </objects>
     </objects>
+    <object>objects\obj_Light</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room_global_vars</room>
@@ -429,7 +441,7 @@
       <room>rooms\room_Level_23</room>
       <room>rooms\room_Level_24</room>
     </rooms>
-    <rooms name="Basement">
+    <rooms name="Crypt">
       <room>rooms\room_Level_25</room>
       <room>rooms\room_Level_26</room>
       <room>rooms\room_Level_27</room>

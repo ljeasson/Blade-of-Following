@@ -37,7 +37,7 @@ if (room == room_level_select_exterior)
 else if (room == room_level_select_laboratory)
      draw_text(room_width/2, 32, "Laboratory");
 else if (room == room_level_select_basement)
-    draw_text(room_width/2, 32, "Basement");
+    draw_text(room_width/2, 32, "Crypt");
 
 // Draw Level Buttons
 for (i = 1; i &lt;= 7; i+=2) {

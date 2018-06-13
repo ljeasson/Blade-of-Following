@@ -775,6 +775,36 @@
       </action>
       <action>
         <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>size = 128;
+draw_set_blend_mode(bm_subtract);
+surface_set_target(light);
+draw_ellipse_color(x - size / 2 - view_xview,
+                    y - size / 2 - view_yview, 
+                    x + size / 2 - view_xview, 
+                    y + size / 2 - view_yview, 
+                    c_orange, c_black, false);
+surface_reset_target();
+draw_set_blend_mode(bm_normal);
+</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
         <id>543</id>
         <kind>0</kind>
         <userelative>0</userelative>

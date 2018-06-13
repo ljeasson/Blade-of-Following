@@ -1,6 +1,8 @@
 Music:
 Hokkaido.mp3 (Menu Music) - Joth (OpenGameArt.org)
-Kawarayu.ogg (Gameplay Music) - Yubatake (OpenGameArt.org)
+Kawarayu.ogg (Exterior Music) - Yubatake (OpenGameArt.org)
+
+Socapex - Tokyo Chase (Crypt Music) - Socapex (OpenGameArt.org)
 
 Sound Effects:
 Thrown Shuriken Sound (used for shuriken collision with guard) - Cody Mahan (Soundbible.com) [Public Domain]

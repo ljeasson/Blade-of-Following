@@ -319,6 +319,7 @@
     <instance objName="obj_Barrell" x="368" y="408" name="inst_A7C9881C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Sound_Gameplay_Exterior" x="40" y="40" name="inst_74298322" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Upgrade_Orb_5" x="352" y="672" name="inst_E5446285" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Exterior_Background_Randomizer" x="40" y="72" name="inst_9ACBE7C8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
