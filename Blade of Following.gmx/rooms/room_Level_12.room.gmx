@@ -244,7 +244,6 @@
     <instance objName="obj_Brazier" x="96" y="704" name="inst_AAF73A98" locked="0" code="" scaleX="0.75" scaleY="1" colour="4294967295" rotation="180"/>
     <instance objName="obj_Upgrade_Orb_4" x="448" y="48" name="inst_736E40E6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Sound_Gameplay_Exterior" x="40" y="40" name="inst_EB7EB606" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Slide" x="40" y="72" name="inst_1B504317" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

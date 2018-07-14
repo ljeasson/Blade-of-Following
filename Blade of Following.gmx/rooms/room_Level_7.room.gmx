@@ -271,7 +271,7 @@
     <instance objName="obj_Marker" x="32" y="224" name="inst_02C82A80" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Marker" x="160" y="544" name="inst_BBF530CC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Marker" x="432" y="544" name="inst_C4163AD8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Upgrade_Menu" x="128" y="32" name="inst_648F7937" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Upgrade_Menu" x="152" y="40" name="inst_648F7937" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Wall_Half" x="112" y="304" name="inst_04145B41" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Wall_Half" x="144" y="304" name="inst_3D4F56E2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Wall_Half" x="176" y="304" name="inst_18B00A1E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>

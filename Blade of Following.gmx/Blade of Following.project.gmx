@@ -86,6 +86,7 @@
       <sprite>sprites\spr_Guard_Armored_L_Squarshed</sprite>
       <sprite>sprites\spr_Warlord</sprite>
       <sprite>sprites\spr_Warlord_Eyes_Closed</sprite>
+      <sprite>sprites\spr_Sniper_Rifle</sprite>
     </sprites>
     <sprites name="Switches and Buttons">
       <sprite>sprites\spr_Electric_Box</sprite>
@@ -131,6 +132,11 @@
       <sprite>sprites\spr_Portal_1</sprite>
       <sprite>sprites\spr_Portal_2</sprite>
       <sprite>sprites\spr_Fan_On</sprite>
+      <sprite>sprites\spr_Water_Switch_Off</sprite>
+      <sprite>sprites\spr_Water_Switch_On</sprite>
+      <sprite>sprites\spr_Vent</sprite>
+      <sprite>sprites\spr_Water_Top</sprite>
+      <sprite>sprites\spr_Oil_Puddle</sprite>
     </sprites>
     <sprites name="UI">
       <sprites name="Upgrades">
@@ -169,15 +175,9 @@
         <sprite>sprites\spr_Oxonian_Games_FadeOut</sprite>
         <sprite>sprites\spr_Proceed</sprite>
       </sprites>
+      <sprite>sprites\spr_Crosshair</sprite>
+      <sprite>sprites\spr_Crosshair_2</sprite>
     </sprites>
-    <sprite>sprites\spr_Sniper_Rifle</sprite>
-    <sprite>sprites\spr_Oil_Puddle</sprite>
-    <sprite>sprites\spr_Water_Top</sprite>
-    <sprite>sprites\spr_Water_Switch_Off</sprite>
-    <sprite>sprites\spr_Water_Switch_On</sprite>
-    <sprite>sprites\spr_Vent</sprite>
-    <sprite>sprites\spr_Crosshair</sprite>
-    <sprite>sprites\spr_Crosshair_2</sprite>
   </sprites>
   <backgrounds name="background">
     <backgrounds name="Old Backgrounds">
@@ -239,14 +239,13 @@
   </fonts>
   <objects name="objects">
     <objects name="Old Objects">
-      <object>objects\obj_Exterior_Background_Randomizer</object>
-      <object>objects\obj_Slide</object>
       <object>objects\obj_Trap_Shuriken</object>
       <object>objects\obj_Distraction_Shuriken</object>
     </objects>
     <objects name="Controllers">
       <object>objects\obj_global_vars</object>
       <object>objects\obj_Menu_UI</object>
+      <object>objects\obj_Credits_UI</object>
       <object>objects\obj_Sound_Menu</object>
       <object>objects\obj_Sound_Gameplay_Exterior</object>
       <object>objects\obj_Sound_Gameplay_Laboratory</object>
@@ -261,6 +260,8 @@
       <object>objects\obj_Lighting_Dark</object>
       <object>objects\obj_Lighting_Bright</object>
       <object>objects\obj_Lighting_White</object>
+      <object>objects\obj_Light</object>
+      <object>objects\obj_Exterior_Background_Randomizer</object>
     </objects>
     <object>objects\obj_Ninja</object>
     <object>objects\obj_Shuriken</object>
@@ -390,43 +391,9 @@
         <object>objects\obj_Level_12</object>
       </objects>
     </objects>
-    <object>objects\obj_Light</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room_global_vars</room>
-    <room>rooms\room_thumbnail</room>
-    <room>rooms\room_header</room>
-    <room>rooms\room_Logo</room>
-    <room>rooms\room_menu</room>
-    <rooms name="test rooms">
-      <room>rooms\prototype_room_barrier</room>
-      <room>rooms\prototype_room_electric</room>
-      <room>rooms\prototype_room_guards</room>
-      <room>rooms\room_test_water</room>
-      <room>rooms\room_test_upside_down</room>
-      <room>rooms\room_test_fan</room>
-      <room>rooms\room_test_depletion_barrier</room>
-      <room>rooms\room_test_reversal_field</room>
-      <room>rooms\room_test_moving_platforms</room>
-      <room>rooms\room_test_portals</room>
-    </rooms>
-    <room>rooms\room_level_select_exterior</room>
-    <room>rooms\room_level_select_laboratory</room>
-    <room>rooms\room_level_select_basement</room>
-    <rooms name="Exterior">
-      <room>rooms\room_Level_1</room>
-      <room>rooms\room_Level_2</room>
-      <room>rooms\room_Level_3</room>
-      <room>rooms\room_Level_4</room>
-      <room>rooms\room_Level_5</room>
-      <room>rooms\room_Level_6</room>
-      <room>rooms\room_Level_7</room>
-      <room>rooms\room_Level_8</room>
-      <room>rooms\room_Level_9</room>
-      <room>rooms\room_Level_10</room>
-      <room>rooms\room_Level_11</room>
-      <room>rooms\room_Level_12</room>
-    </rooms>
     <rooms name="Laboratory">
       <room>rooms\room_Level_13</room>
       <room>rooms\room_Level_14</room>
@@ -455,6 +422,40 @@
       <room>rooms\room_Level_35</room>
       <room>rooms\room_Level_36</room>
     </rooms>
+    <rooms name="test rooms">
+      <room>rooms\prototype_room_barrier</room>
+      <room>rooms\prototype_room_electric</room>
+      <room>rooms\prototype_room_guards</room>
+      <room>rooms\room_test_water</room>
+      <room>rooms\room_test_upside_down</room>
+      <room>rooms\room_test_fan</room>
+      <room>rooms\room_test_depletion_barrier</room>
+      <room>rooms\room_test_reversal_field</room>
+      <room>rooms\room_test_moving_platforms</room>
+      <room>rooms\room_test_portals</room>
+    </rooms>
+    <room>rooms\room_thumbnail</room>
+    <room>rooms\room_header</room>
+    <room>rooms\room_Logo</room>
+    <room>rooms\room_menu</room>
+    <room>rooms\room_level_select_exterior</room>
+    <room>rooms\room_level_select_laboratory</room>
+    <room>rooms\room_level_select_basement</room>
+    <rooms name="Exterior">
+      <room>rooms\room_Level_1</room>
+      <room>rooms\room_Level_2</room>
+      <room>rooms\room_Level_3</room>
+      <room>rooms\room_Level_4</room>
+      <room>rooms\room_Level_5</room>
+      <room>rooms\room_Level_6</room>
+      <room>rooms\room_Level_7</room>
+      <room>rooms\room_Level_8</room>
+      <room>rooms\room_Level_9</room>
+      <room>rooms\room_Level_10</room>
+      <room>rooms\room_Level_11</room>
+      <room>rooms\room_Level_12</room>
+    </rooms>
+    <room>rooms\room_credits</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

@@ -380,7 +380,7 @@
     <instance objName="obj_Guard_Barrier" x="760" y="112" name="inst_022BD57D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Guard_Barrier" x="760" y="80" name="inst_1F62D2CF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Guard_Barrier" x="760" y="48" name="inst_94943E74" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Guard_Standstill_R" x="48" y="448" name="inst_2A5A2F99" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Guard_Standstill_R" x="64" y="448" name="inst_2A5A2F99" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Wall" x="960" y="544" name="inst_EE5E1B59" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Wall" x="928" y="544" name="inst_5629281B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Wall" x="896" y="544" name="inst_FD5914E1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
